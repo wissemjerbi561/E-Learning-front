@@ -1,0 +1,174 @@
+<div class="form-container">
+  <form>
+    <div class="form-group">
+      <label>nom:</label>
+      <input type="string" name="description" class="form-control" [(ngModel)]="cours.nom">
+    </div>
+    <div class="form-group">
+      <label>description:</label>
+      <input type="string" name="description" class="form-control" [(ngModel)]="cours.description">
+    </div>
+    <div class="form-group">
+      <label for="datedebut">date d'application:</label>
+      <input type="date" id="datedebut" name="date" [(ngModel)]="cours.dateDebut">
+    </div>
+    <div class="form-group">
+      <label for="datefin">date d'expiration :</label>
+      <input type="date" id="datefin" name="date" [(ngModel)]="cours.dateFin">
+    </div>
+    <div>
+      <label>Thème:</label>
+      </div>
+    <div style="display: flex; align-items: center;">
+      <button class="btn-add"  (click)="openModalTheme()"><span>+</span></button>
+      <select name="contenu" id="themes" class="form-control" [(ngModel)]="cours.idTheme" >
+        <option *ngFor="let thm of listThemes"  [value]="thm.idTheme">{{thm.nom}}</option>
+      </select>
+  
+    </div>
+    <!---->
+    <div>
+      <label>Catégorie:</label>
+    </div>
+    <div style="display: flex; align-items: center;">
+      <button class="btn-add" (click)="openModalCategorie()"><span>+</span></button>
+      <select name="categorie" id="categorie" class="form-control" [(ngModel)]="cours.idCategorie">
+        <option *ngFor="let cat of listCategories" [value]="cat.idCategorie">{{cat.nom}}</option>
+      </select>
+    </div>
+     <!---->
+     <div>
+      <label>Sous-catégorie:</label>
+    </div>
+    <div style="display: flex; align-items: center;">
+      <button class="btn-add" (click)="openModalSousCategorie()"><span>+</span></button>
+      <select name="sousCategorie" id="sousCategorie" class="form-control" [(ngModel)]="cours.idSousCategorie">
+        <option *ngFor="let sousCat of listSousCategories" [value]="sousCat.idSousCategorie">{{sousCat.nom}}</option>
+      </select>
+    </div>
+    <!---->
+    <div class="form-group">
+      <label for="imageFile">Image :</label>
+      <input type="file" id="imageFile" name="imageFile" (change)="onImageFileChange($event)">
+    </div>
+    <!-- Formulaire pour ajouter un theme -->
+    <div *ngIf="showModalTheme" class="modal-form-container">
+      <div class="modal-form-content">
+        <span class="modal-form-close" (click)="showModalTheme = false">&times;</span>
+        <h2>Ajouter un Thème</h2>
+        <form (ngSubmit)="ajouterTheme()">
+          <div class="form-group">
+            <label >Description :</label>
+            <input type="text" class="form-control" name="titre" [(ngModel)]="theme.nom" required>
+          </div>
+          <div class="form-group">
+            <label >Description :</label>
+            <input type="text" class="form-control" name="titre" [(ngModel)]="theme.description" required>
+          </div>
+  
+          <button type="submit" class="btn btn-primary"  (click)="ajouterTheme()">Ajouter</button>
+        </form>
+      </div>
+    </div>
+  
+    <div class="button-container">
+    <button class="btn-save"(click)="save()">Enregistrer</button>
+    <div >
+      <button class="btn-add-session" (click)="openModalSession()">Ajouter un tarif</button>
+
+       <!-- Modal pour l'ajout de catégorie -->
+  <div *ngIf="showModalCategorie" class="modal-form-container">
+    <div class="modal-form-content">
+      <span class="modal-form-close" (click)="showModalCategorie = false">&times;</span>
+      <h2>Ajouter une Catégorie</h2>
+      <form (ngSubmit)="ajouterCategorie()">
+        <div class="form-group">
+          <label>Nom :</label>
+          <input type="text" class="form-control" name="nom" [(ngModel)]="nouvelleCategorie.nom" required>
+        </div>
+        <div class="form-group">
+          <label>Description :</label>
+          <input type="text" class="form-control" name="description" [(ngModel)]="nouvelleCategorie.description" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Ajouter</button>
+      </form>
+    </div>
+  </div>
+<!-- Modal pour l'ajout de sous-catégorie -->
+<div *ngIf="showModalSousCategorie" class="modal-form-container">
+<div class="modal-form-content">
+  <span class="modal-form-close" (click)="showModalSousCategorie = false">&times;</span>
+  <h2>Ajouter une Sous-catégorie</h2>
+  <form (ngSubmit)="ajouterSousCategorie()">
+    <div class="form-group">
+      <label>Nom :</label>
+      <input type="text" class="form-control" name="nom" [(ngModel)]="nouvelleSousCategorie.nom" required>
+    </div>
+    <div class="form-group">
+      <label>Description :</label>
+      <input type="text" class="form-control" name="description" [(ngModel)]="nouvelleSousCategorie.description" required>
+    </div>
+    <div class="form-group">
+      <label>Catégorie :</label>
+      <select name="categorie" class="form-control" [(ngModel)]="nouvelleSousCategorie.idCategorie">
+        <option *ngFor="let categorie of listCategories" [value]="categorie.idCategorie">{{ categorie.nom }}</option>
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Ajouter</button>
+  </form>
+</div>
+</div>
+<!-- Formulaire pour ajouter un tarif -->
+<div *ngIf="showModalSession" class="modal-form-container">
+<div class="modal-form-content">
+  <span class="modal-form-close" (click)="showModalSession = false">&times;</span>
+  <h2>Ajouter un Tarif</h2>
+  <form (ngSubmit)="ajouterTarif()">
+    <div class="form-group">
+      <label>Prix:</label>
+      <input type="text" class="form-control" name="titre" [(ngModel)]="tarif.price" required>
+    </div>
+    <div class="form-group">
+      <label for="datedebut">Date de début:</label>
+      <input type="date" id="datedebutses" name="date" [(ngModel)]="tarif.dateDebut">
+    </div>
+    <div class="form-group">
+      <label>Cours :</label>
+      <select name="contenu" id="course" class="form-control" [(ngModel)]="tarif.idCours" >
+        <option [value]="idCours">{{cours.nom}}</option>
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Ajouter</button>
+  </form>
+</div>
+</div>
+      <button class="btn-add-chapter" (click)="openModal()"> ajouter un chapitre</button>
+      <!-- Formulaire pour ajouter un chapitre -->
+      <!-- Modal pour l'ajout de chapitre -->
+  
+      <div *ngIf="showModal" class="modal-form-container">
+        <div class="modal-form-content">
+          <span class="modal-form-close" (click)="showModal = false">&times;</span>
+          <h2>Ajouter un chapitre</h2>
+          <form (ngSubmit)="ajouterChapitre()">
+            <div class="form-group">
+              <label >Description :</label>
+              <input type="text" class="form-control" name="titre" [(ngModel)]="chapitre.descriptionCh" required>
+            </div>
+            <div class="form-group">
+              <label >Cours :</label>
+              <select (ngModelChange)="onChangeCours($event)" name="contenu" id="courses" class="form-control" [(ngModel)]="chapitre.idCours" >
+                <option ></option>
+                <option *ngFor="let course of listCours" [value]="course.idCours">{{course.nom}}</option>
+              </select>
+            </div>
+  
+            <button type="submit" class="btn btn-primary" >Ajouter</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+  </form>
+  </div>
+  

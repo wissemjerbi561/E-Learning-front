@@ -1,0 +1,15 @@
+ul{
+  color: black;
+}
+i{
+  color: var(--primary);
+}
+
+.edit-btn {
+  border-color:#06A3DA;
+  
+  font-size:24px;
+  color:#06A3DA;
+}
+
+

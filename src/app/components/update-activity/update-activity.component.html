@@ -1,0 +1,24 @@
+<style>
+  
+</style>
+<div class="col-md-6 offset-md-3">
+<h2>Modifier Activité</h2>
+<form (ngSubmit)="onSubmit()">
+<div class="form-group">
+<label>Description</label>
+<input type="text" class="form-control" id="description"
+[(ngModel)]="activite.description" name="description">
+</div>
+<div class="form-group">
+    <label>Durée</label>
+    <input type="number" class="form-control" id="dateDebut"
+    [(ngModel)]="activite.dure" name="dateDebut">
+    </div>
+
+
+
+
+
+<button class = "btn btn-success" type ="submit">Submit</button>
+</form>
+</div>

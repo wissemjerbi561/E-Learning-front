@@ -1,0 +1,64 @@
+<!--<div style="text-align: center;">
+    <h3>Chatbot</h3>
+</div>
+<div class="container">
+    <div id="chatbox">
+        <div class="chatlogs" id="chatlogs">
+            <div class="chat self">
+                <div class="user-photo"></div>
+                <p class="chat-message">Bonjour ! Comment puis-je vous aider ?</p>
+            </div>
+        </div>
+        <div class="chat-form">
+            <div class="input-group">
+                <input type="text" class="form-control" id="chatinput" placeholder="Entrez votre message ici...">
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="button" id="sendbtn">Envoyer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>-->
+
+<!--<div class="container">
+    <div id="chatbox">
+      <div class="chatlogs" id="chatlogs">
+        <div *ngFor="let log of chatLogs" class="chat">
+          <div class="user-photo"></div>
+          <p class="chat-message">{{ log }}</p>
+        </div>
+      </div>
+      <div class="chat-form">
+        <div class="input-group">
+          <input type="text" class="form-control" [(ngModel)]="message" placeholder="Entrez votre message ici...">
+          <div class="input-group-append">
+            <button class="btn btn-primary" type="button" (click)="onSendMessage()">Envoyer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>-->
+  <div class="container">
+    <div id="chatbox">
+      <div class="chatlogs" id="chatlogs">
+        <div *ngFor="let log of chatLogs" class="chat">
+          <div class="user-photo"></div>
+          <p class="chat-message">{{ log }}</p>
+        </div>
+        <div *ngIf="chatbotResponse" class="chat">
+          <div class="user-photo"></div>
+          <p class="chat-message">Chatbot: {{ chatbotResponse }}</p>
+        </div>
+      </div>
+      <div class="chat-form">
+        <div class="input-group">
+          <input type="text" class="form-control" [(ngModel)]="message" placeholder="Entrez votre message ici...">
+          <div class="input-group-append">
+            <button class="btn btn-primary" type="button" (click)="onSendMessage()">Envoyer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  

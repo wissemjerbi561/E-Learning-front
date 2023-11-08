@@ -1,0 +1,32 @@
+
+<button class="btn btn-outline-success mt-2" routerLink="/ajout-membre"><span class="glyphicon">&#x2b;</span>Ajouter un membre</button>
+
+<h1>Les Membres</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Nom</th>
+      <th>Prenom</th>
+      <th>Email</th>
+      <th>Position</th>
+      <th>Profil</th>
+      <th>Modifier</th>
+      <th>Supprimer</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let member of members">
+        <td>{{ member.firstName }}</td>
+        <td>{{ member.lastName }}</td>
+        <td>{{ member.email }}</td>
+        <td>{{ member.positions[0]?.name }}</td>
+        <td> <button class="profil-btn" routerLink="/membres/{{member.memberId}}"><i class="bi bi-person-fill"></i></button></td>
+        <td> <button class="edit-btn" (click)="updateMember(member)"><i class='fas fa-pen'></i></button></td>
+        <td> <button class="delete-btn" (click)="deleteMember(member)"><i class="bi bi-trash" style='font-size:24px;color: red;'></i></button></td>
+        
+
+    </tr>
+  </tbody>
+</table>
+
+

@@ -1,0 +1,38 @@
+<br>
+<br>
+<mat-card class="custom-card">
+  <div *ngIf="isFormVisible">
+    <form (ngSubmit)="onSubmit()" class="custom-form">
+      <div class="form-field">
+        <mat-form-field class="custom-form-field">
+          <mat-label>Type</mat-label>
+          <mat-select [(ngModel)]="publication.type" name="type" >
+            <mat-option value="Question">Question</mat-option>
+            <mat-option value="Reclamation">Réclamation</mat-option>
+            <mat-option value="Proposition">Proposition</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+      <div class="form-field">
+        <mat-form-field class="custom-form-field">
+          <mat-label>Contenu</mat-label>
+          <textarea matInput [(ngModel)]="publication.contenu" name="contenu" required></textarea>
+        </mat-form-field>
+      </div>
+      <div class="form-field">
+        <mat-form-field class="custom-form-field">
+          <mat-label>Auteur</mat-label>
+          <input matInput [value]="publication.auteur" disabled>
+        </mat-form-field>
+      </div>
+      <div class="button-container">
+        <button mat-raised-button color="primary" type="submit">
+          {{ isCreating ? 'Créer' : 'Mettre à jour' }}
+        </button>
+        <button mat-raised-button color="warn" type="button" (click)="onCancel()">
+          Annuler
+        </button>
+      </div>
+    </form>
+  </div>
+</mat-card>

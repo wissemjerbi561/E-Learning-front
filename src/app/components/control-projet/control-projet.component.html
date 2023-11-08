@@ -1,0 +1,130 @@
+<style>
+
+    .panel {
+      background-color: #f8f9fa;
+      border-radius: 4px;
+      border: none;
+      box-shadow: none;
+      margin-top: 20px;
+    }
+    
+    .panel-heading {
+      background-color: #007bff;
+      border-radius: 4px 4px 0 0;
+      color: #fff;
+      padding: 10px 15px;
+    }
+    
+    .panel-body {
+      padding: 20px;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    th,
+    td {
+      padding: 10px;
+      text-align: left;
+      vertical-align: middle;
+    }
+    
+    th {
+      background-color: #007bff;
+      color: #fff;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    
+    .btn {
+      border-radius: 4px;
+      color: #fff;
+      font-weight: bold;
+      padding: 8px 16px;
+      text-transform: uppercase;
+    }
+    
+    .btn-success {
+      background-color: #28a745;
+      border: none;
+    }
+    
+    .btn-danger {
+      background-color: #dc3545;
+      border: none;
+    }
+    
+    .search-container {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    #search-bar {
+      width: 70%;
+      padding: 8px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    
+    #search-btn {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 8px 16px;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+    
+    #search-btn:hover {
+      background-color: #0069d9;
+    }
+    
+    </style>
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h2>Suivie des projets</h2>
+        </div>
+        <div class="panel-body">
+          <table id="example" class="table table-striped table-bordered table-sm row-border hover" cellspacing="0" width="100%">
+    
+        <thead>
+    
+             
+            <div class="search-container">
+                <input type="text" id="search-bar" placeholder="Search...">
+                <button type="button" id="search-btn">Search</button>
+              </div>
+              
+        </thead>
+    
+        <tbody>
+            
+           
+    
+            <tr *ngFor = "let projet of projets">
+                
+                <td>
+                    {{projet.description}}
+                </td>
+                <td>
+                    {{projet.dateDebut}}
+                </td>
+                <td>
+                    {{projet.dateFin}}
+                </td>
+                <td>
+                    <select [(ngModel)]="selectedTutor">
+                      <option *ngFor="let member of tutorMembers" [value]="member.memberId">{{ member.firstName }} </option>
+                    </select>
+                    <button (click)="Affecter(projet.idProjet)">Affecter</button>
+                  </td>
+          
+                       
+            </tr>

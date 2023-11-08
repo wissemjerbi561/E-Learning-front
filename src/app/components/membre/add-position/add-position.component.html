@@ -1,0 +1,48 @@
+<div class="container rounded bg-white mt-5 mb-5">
+    <div class="row">
+
+        <div class="col-md-5 border-right">
+            <div class="p-3 py-5">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4 class="text-right">Paramétres de la position</h4>
+                </div>
+
+                <div class="form-group">
+                  <label for="name"> Nom de position<span>*</span></label>
+                  <input class="form-control" type="text" [(ngModel)]="position!.name" placeholder="Nom" name="name"  id="name" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="code"> Code <span>*</span></label>
+                  <input class="form-control" type="text" [(ngModel)]="position!.code" placeholder="Code" name="code"  id="code" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="niveau"> Niveau<span>*</span></label>
+                    <input class="form-control" type="text" [(ngModel)]="position!.level" placeholder="Niveau" name="level" id="level" required>
+                </div>
+                
+                <button id="bouton-retour"  routerLink="/ajout-membre"><i class="fa fa-arrow-left"></i> Retour vers ajout membre</button>
+
+
+
+            
+
+
+                <div class="mt-5 text-center"> 
+                  <div class="form-group">
+                  <button (click)="savePosition()" type="submit" class="btn btn-outline-success mt-2"><span class="glyphicon">&#x2b;</span>Ajouter votre Position</button>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+
+
+
+
+

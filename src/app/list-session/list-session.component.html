@@ -1,0 +1,387 @@
+<!-- <mat-accordion>
+    <mat-expansion-panel *ngFor="let session of sessions">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          {{ session.dateDebut }} - {{ session.dateFin }}
+        </mat-panel-title>
+        <mat-panel-description>
+          {{ session.nbrDesInscrits }} étudiants inscrits
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <div *ngFor="let cours of session.cours">
+        {{ cours.nom }}
+      </div>
+    </mat-expansion-panel>
+  </mat-accordion> -->
+
+
+
+  <!-- <mat-accordion>
+    <mat-expansion-panel *ngFor="let session of sessions">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          {{ session.dateDebut }} - {{ session.dateFin }}
+        </mat-panel-title>
+        <mat-panel-description>
+          {{ session.nbrDesInscrits }} étudiants inscrits
+          
+        </mat-panel-description>
+
+        <button mat-raised-button color="primary" class="d-inline-block" (click)="openModal(session)">Affecter un cours</button>
+             
+             <button mat-raised-button  class="btn btn-primary custom-button" (click)="openAjoutSeanceModal(session)">Ajouter une séance</button>
+   
+  <button mat-raised-button class="btn btn-primary custom-button" (click)="openInscriptionModal(session)">
+    S'inscrire
+  </button>
+    </mat-expansion-panel-header>
+    <h5>Liste des cours pour la session</h5>
+      <div *ngFor="let cours of session.courss">
+       Nom du Cours : {{ cours.nom}} - Description {{cours.description}}
+      </div>
+    <h5>Liste des séances pour la session</h5>
+      <div *ngFor="let seance of session.seances">
+        Date de début: {{ seance.dateDebut}} - heure de début{{seance.heureReunion}}
+        Lien de séance: <a [href]="seance.lienGoogleMeet">{{ seance.lienGoogleMeet }}</a>
+        
+       </div>
+    </mat-expansion-panel>
+  </mat-accordion>
+  
+  <div class="modal" tabindex="-1" role="dialog" [ngClass]="{'d-block': showModal}" (keydown.esc)="closeModal()">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Choisir un cours à affecter à la session {{ selectedSession?.dateDebut }} - {{ selectedSession?.dateFin }}</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="closeModal()">
+   
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <select class="form-control" [(ngModel)]="coursSelectionne.idCours">
+                <option *ngFor="let cours of listCours" [value]="cours.idCours">{{ cours.nom }}</option>
+              </select>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" (click)="closeModal()">Annuler</button>
+          <button type="button" class="btn btn-primary" (click)="affecterCours()">Affecter</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+
+
+
+  <div class="modal" id="ajoutSeanceModal" tabindex="-1" role="dialog" [ngClass]="{'d-block': showAjoutSeanceModal}">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Ajout de séance</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="closeModalSeance()">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          
+            
+          <form (ngSubmit)="ajouterSeance()" #ajoutSeanceForm="ngForm">
+            <div class="form-group">
+              <label for="dateDebut">Date de début</label>
+              <input type="date" class="form-control" id="dateDebut" name="dateDebut" [(ngModel)]="nouvelleSeance.dateDebut" required>
+            </div>
+            <div class="form-group">
+              <label for="heureReunion">Heure de la réunion</label>
+              <input type="time" class="form-control" id="heureReunion" name="heureReunion" [(ngModel)]="nouvelleSeance.heureReunion" required>
+            </div>
+           
+  
+            <button type="submit" class="btn btn-primary">Ajouter</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+<div class="modal" id="inscriptionModal" tabindex="-1" role="dialog" [ngClass]="{'d-block': showInscriptionModal}">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Inscription à la session</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="closeModalInscription()">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label for="membreSelect">Membre</label>
+            <select class="form-control" id="membreSelect" [(ngModel)]="membreSelectionne.idMember">
+              <option *ngFor="let membre of membres" [value]="membre.idMember">{{ membre.firstName }} {{ membre.lastName }}</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" name="email" [(ngModel)]="membreSelectionne.email" required>
+          </div>
+        
+        
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" (click)="closeModalInscription()">Annuler</button>
+          <button type="button" class="btn btn-primary" (click)="payer()">Payer</button>
+          <button type="button" class="btn btn-primary" (click)="sinscrire()">S'inscrire</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ -->
+ <mat-accordion>
+  <mat-expansion-panel *ngFor="let session of sessions">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        {{ session.dateDebut }} - {{ session.dateFin }}
+      </mat-panel-title>
+      <mat-panel-description>
+        {{ session.nbrDesInscrits }} étudiants inscrits
+        {{session.capacite}}     postes vacantes 
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+
+    <ng-template matExpansionPanelContent>
+      <h5>Liste des cours pour la session</h5>
+      <div *ngFor="let cours of session.courss">
+        Nom du Cours : {{ cours.nom }} - Description {{ cours.description }}
+      </div>
+      <h5>Liste des séances pour la session</h5>
+      <div *ngFor="let seance of session.seances" >
+          <div *ngIf="!noninscrit">
+        Date de début: {{ seance.dateDebut }} - heure de début{{ seance.heureReunion }}
+        Lien de séance: <a [href]="seance.lienGoogleMeet">{{ seance.lienGoogleMeet }}</a>
+      </div></div>
+      <!-- <full-calendar
+      id="calendar"
+      [options]="calendarOptions"
+    ></full-calendar> -->
+    <h5>Calendrier des séances</h5>
+<div id="sessionCalendar"></div>
+  
+    </ng-template>
+
+    <mat-action-row>
+      <button mat-button color="primary" (click)="openModal(session)">
+        Affecter un cours
+      </button>
+      <button mat-button (click)="openAjoutSeanceModal(session)">
+        Ajouter une séance
+      </button>
+      <button mat-button (click)="openInscriptionModal(session)">
+        S'inscrire
+      </button>
+    </mat-action-row>
+  </mat-expansion-panel>
+</mat-accordion>
+
+<div class="modal" tabindex="-1" role="dialog" [ngClass]="{'d-block': showModal}" (keydown.esc)="closeModal()">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Choisir un cours à affecter à la session {{ selectedSession?.dateDebut }} - {{ selectedSession?.dateFin }}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="closeModal()">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <select class="form-control" [(ngModel)]="coursSelectionne.idCours">
+          <option *ngFor="let cours of listCours" [value]="cours.idCours">{{ cours.nom }}</option>
+        </select>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" (click)="closeModal()">Annuler</button>
+        <button type="button" class="btn btn-primary" (click)="affecterCours()">Affecter</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="ajoutSeanceModal" tabindex="-1" role="dialog" [ngClass]="{'d-block': showAjoutSeanceModal}">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Ajout de séance</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="closeModalSeance()">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form (ngSubmit)="ajouterSeance()" #ajoutSeanceForm="ngForm">
+          <div class="form-group">
+            <label for="dateDebut">Date de début</label>
+            <input type="date" class="form-control" id="dateDebut" name="dateDebut" [(ngModel)]="nouvelleSeance.dateDebut" required>
+          </div>
+          <div class="form-group">
+            <label for="heureReunion">Heure de la réunion</label>
+            <input type="time" class="form-control" id="heureReunion" name="heureReunion" [(ngModel)]="nouvelleSeance.heureReunion" required>
+          </div>
+          <div class="form-group">
+              <label for="lienGoogleMeet">Lien vidéoconférence</label>
+              <div class="input-group">
+                <input type="text" class="form-control" id="lienGoogleMeet" name="lienGoogleMeet" [(ngModel)]="nouvelleSeance.lienGoogleMeet">
+                <div class="input-group-append">
+                  <a class="btn btn-secondary" href="https://demo.bigbluebutton.org/rooms" target="_blank">
+                      <img class="logo-bigbluebutton" src="../../assets/BBBlogo.webp" alt="Logo BigBlueButton">
+                  </a>
+                </div>
+              </div>
+            </div>
+          <button type="submit" class="btn btn-primary">Ajouter</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- <div class="modal" id="inscriptionModal" tabindex="-1" role="dialog" [ngClass]="{'d-block': showInscriptionModal}">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Inscription à la session</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="closeModalInscription()">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label for="membreSelect">Membre</label>
+          <select class="form-control" id="membreSelect" [(ngModel)]="membreSelectionne.idMember">
+            <option *ngFor="let membre of membres" [value]="membre.idMember">{{ membre.firstName }} {{ membre.lastName }}</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" name="email" [(ngModel)]="membreSelectionne.email" required>
+        </div>
+       
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" (click)="closeModalInscription()">Annuler</button>
+        <button type="button" class="btn btn-primary" (click)="payer()">Payer</button>
+        <button type="button" class="btn btn-primary" (click)="sinscrire()">S'inscrire</button>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+
+<!--  <div class="modal" id="inscriptionModal" tabindex="-1" role="dialog" [ngClass]="{'d-block': selectedSession}">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Inscription à la session</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="closeModalInscription()">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+          <div class="form-group">
+             <label for="membreSelect">Membre</label>
+              <select class="form-control" id="membreSelect" [(ngModel)]="membreSelectionne.idMember">
+                <option *ngFor="let membre of membres" [value]="membre.idMember">{{ membre.firstName }} {{ membre.lastName }}</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" name="email" [(ngModel)]="membreSelectionne.email" required>
+            </div>
+           
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" (click)="closeModalInscription()">Annuler</button>
+        <button type="button" class="btn btn-primary" (click)="payer()">Payer</button>
+        <button type="button" class="btn btn-primary" (click)="sinscrire()">S'inscrire</button>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+
+
+<!---->
+
+
+<!--  <div class="modal" tabindex="-1" role="dialog" [ngClass]="{'d-block': showInscriptionModal}">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Inscription à la session</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="closeModalInscription()">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body"> -->
+
+
+    <!--     <div class="form-group">
+          <label for="membreSelect">Membre</label>
+          <select class="form-control" id="membreSelect" [(ngModel)]="membreSelectionne.idMember">
+            <option *ngFor="let membre of membres" [value]="membre.idMember">{{ membre.firstName }} {{ membre.lastName }}</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" name="email" [(ngModel)]="membreSelectionne.email" required>
+        </div> -->
+      <!-- </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" (click)="closeModalInscription()">Annuler</button>
+        <button type="button" class="btn btn-primary" (click)="payer()">Payer</button>
+        <button type="button" class="btn btn-primary" (click)="sinscrire()">S'inscrire</button>
+      </div>
+    </div>
+  </div>
+</div> -->
+<div class="modal" id="inscriptionModal" tabindex="-1" role="dialog" [ngClass]="{'d-block': showInscriptionModal}">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Inscription</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="closeModalInscription()">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label for="nomMembre">Nom du membre</label>
+          <input type="text" class="form-control" id="nomMembre" name="nomMembre" disabled>
+        </div>
+        <div class="form-group">
+          <label for="prenomMembre">Prénom du membre</label>
+          <input type="text" class="form-control" id="prenomMembre" name="prenomMembre" disabled>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" name="email"  disabled>
+        </div>
+      </div>
+      <div class="form-group">
+          <div *ngIf="sature">
+          <label for="msg alert">Impossible de s'inscrire à cette session</label>
+          </div></div>
+      <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" (click)="closeModalInscription()">Annuler</button>
+          <button type="button" class="btn btn-primary" (click)="payer()">Payer</button>
+          <button type="button" class="btn btn-primary" (click)="sinscrire()">S'inscrire</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+

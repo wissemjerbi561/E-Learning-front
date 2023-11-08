@@ -1,0 +1,65 @@
+.form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"], select {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .rating {
+    display: inline-block;
+    font-size: 1.5rem;
+  }
+  
+  .star {
+    cursor: pointer;
+  }
+  
+  .star i:before {
+    content: '\f005';
+    color: grey;
+  }
+  
+  .star.active i:before {
+    color: yellow;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #28a745;
+    border: 1px solid #28a745;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+  }
+  
+  button:active {
+    background-color: #1e7e34;
+    border-color: #1c7430;
+  }

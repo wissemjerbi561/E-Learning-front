@@ -1,0 +1,36 @@
+<h2>  les Detail de ce probleme</h2>
+<div>
+        <p><strong>Description:</strong> {{ probleme.description }}</p>
+    <p><strong>Durée :</strong> {{ probleme.dure }}</p>
+  
+    
+  </div>
+ 
+  <h2> List des activites de ce probleme</h2>
+  <button  style='margin-right:12px; background-color: blue;'[routerLink]="['/add-activity/',probleme.idProbleme]" class="btn btn-success"
+  >Ajouter Activité <i
+  class="fa fa-angle-right"></i></button>
+<table *ngIf="activites">
+    <tr>
+      <th>Description</th>
+      <th>Durée/Jour</th>
+      <th>Actions</th>
+    </tr>
+    
+    <tr *ngFor="let activite of activites">
+      <td>{{activite.description}}</td>
+      <td>{{activite.dure}}</td>
+      <button  style='margin-right:12px; background-color: blue;' [routerLink]="['/add-tache/',activite.idActivite]"
+class="btn btn-success">Add tache <i
+    class="fa fa-angle-right"></i></button>
+    <button  style='margin-right:12px; background-color: blue;' [routerLink]="['/list-tache/',activite.idActivite]"
+    class="btn btn-success">List taches <i
+        class="fa fa-angle-right"></i></button>
+      <button style='margin-right:12px' (click)="updateActivite(activite.idActivite)" class="btn btn-success"> Modifer</button>
+      <button  style='margin-right:12px;font-size: 14px; background-color: rgb(255, 0, 55);'(click)="deactiverActivite(activite.idActivite)" > deactiver</button>
+
+      <!--<button style='margin-right:12px' (click)="deleteActivite(activite.idActivite)" class = "btn btn-danger" > Supprimer</button> -->
+
+    </tr>
+
+</table>

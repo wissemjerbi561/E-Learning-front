@@ -1,0 +1,162 @@
+
+<!--<table class="table">
+<thead>
+  <tr>
+    <th scope="col">Tâche</th>
+    <th scope="col">Projet</th>
+    <th scope="col">Member</th>
+
+
+  </tr>
+</thead>
+<tbody>
+  <tr *ngFor="let affectation of taches">
+    <td>{{ affectation.tache.description }}</td>
+    <td>{{ affectation.projet.description }}</td>
+    <td>{{ affectation.memberId        }}</td>
+
+
+
+
+  
+    
+  </tr>
+</tbody>
+</table> 
+-->
+
+<h2>Suivi Mes tâches</h2>
+<table class="table">
+<thead>
+  <tr>
+    <th scope="col">Tâche</th>
+    <th scope="col">date debut</th>
+    <th scope="col">date fin</th>
+    <th scope="col">projet associée</th>
+
+
+    <th scope="col">Action</th>
+
+  </tr>
+</thead>
+<tbody>
+  
+  <tr *ngFor="let task of tasks">
+    <td>{{ task.tache.description }}</td>
+    <td>{{ task.dateDebut|date}} </td>
+    <td>{{ task.dateFin |date       }}</td>
+    <td>{{ task.projet.description    }}</td>
+
+
+
+
+
+    <td>
+      <button class="btn btn-warning" (click)="openModal()">
+        <i class="bi bi-question-circle"></i>
+      </button>
+      <button class="btn btn-primary" (click)="openModal2()">
+        <i class="bi bi-info-circle"></i>
+      </button>
+
+    </td>
+    
+    
+  </tr>
+</tbody>
+</table>
+<!--<div *ngIf="tasks.length > 0">
+<h2>Mes Taches  :</h2>
+<th scope="col">Tâche</th>
+<th scope="col">Projet</th>
+<th scope="col">Member</th>
+<ul>
+  <li *ngFor="let task of tasks">
+    {{ task.tache.description }}
+    
+   
+
+
+  </li>
+</ul>
+</div>
+
+<div *ngIf="tasks.length === 0">
+<p>Aucune tâche trouvée pour le membre connecté.</p>
+</div>
+-->
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close" (click)="closeModal()">&times;</span>
+    <form> 
+      <div class="form-group">
+        <p>Demande d'aide :</p>
+
+       
+        <label for="objet">Objet :</label>
+        <input type="text" id="objet" class="form-control" [(ngModel)]="demandeaide.objet" name="objet">
+      </div>
+      <div class="form-group">
+        <label for="message">Message :</label>
+        <textarea id="message" class="form-control" [(ngModel)]="demandeaide.message" name="message"></textarea>
+      </div>
+    
+      <button class="btn btn-primary" (click)="envoyer()">Envoyer</button>
+      
+    </form>
+  </div>
+</div>
+
+<div id="myModal1" class="modal">
+  <div class="modal-content">
+    <span class="close" (click)="closeModal1()">&times;</span>
+    <form> 
+      <div class="form-group">
+        <p>Demande de verification :</p>
+
+       
+        <label for="objet">Objet :</label>
+        <input type="text" id="objet" class="form-control" [(ngModel)]="demandeverif.objet" name="objet">
+      </div>
+      <div class="form-group">
+        <label for="message">Message :</label>
+        <textarea id="message" class="form-control" [(ngModel)]="demandeverif.message" name="message"></textarea>
+      </div>
+
+    
+      <button class="btn btn-primary" (click)="send()">Envoyer</button>
+      
+    </form>
+  </div>
+</div>
+
+<!-- <mat-table>
+<ng-container matColumnDef="Tache">
+  <mat-header-cell *matHeaderCellDef>Tâche</mat-header-cell>
+  <mat-cell *ngFor="let item of tachesAvecProjet">{{ item.tache.description }}</mat-cell>
+</ng-container>
+
+<ng-container matColumnDef="project">
+  <mat-header-cell *matHeaderCellDef>Projet</mat-header-cell>
+  <mat-cell *matCellDef="let item">{{ item.projet | async }}</mat-cell>
+</ng-container>
+
+<ng-container matColumnDef="action">
+  <mat-header-cell *matHeaderCellDef>Action</mat-header-cell>
+  <mat-cell *matCellDef="let item">
+    <button class="btn btn-primary">
+      <i class="bi bi-check custom-icon"></i>
+      (click)="verifyTask(item)"
+    </button>
+    <button class="btn btn-warning">
+      (click)="requestHelp(item)"
+      <i class="bi bi-question-circle"></i>
+    </button>
+  </mat-cell>
+</ng-container>
+
+<mat-header-row *matHeaderRowDef="['Tache', 'project', 'action']"></mat-header-row>
+<mat-row *matRowDef="let item of tachesAvecProjet; columns: ['Tache', 'project', 'action']"></mat-row>
+</mat-table>
+-->

@@ -1,0 +1,23 @@
+.container {
+    display: table;
+  justify-content: center;
+  align-items: center;
+  
+}
+.containerRow {
+    margin-right: 10px;
+}
+
+.mat-card-title{
+    color:rgb(107, 165, 231);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:x-large;
+}
+
+.mat-card {
+    font-size: 16px; 
+  }
+.large-card {
+    font-size: 100px;
+  }

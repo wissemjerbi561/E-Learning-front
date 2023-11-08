@@ -1,0 +1,56 @@
+.content {
+  display: grid;
+  grid-template-columns: auto 1fr; /* Ajout d'une colonne supplémentaire pour la première carte */
+  grid-template-rows: auto auto; /* Ajout de deux lignes */
+  grid-gap: 20px;
+  align-items: center; /* Centrer verticalement */
+}
+
+.chart {
+  width: 750px; /* Modifier la largeur selon la taille souhaitée */
+}
+
+.card:first-child {
+  grid-column: 1 / span 1; /* Occupe une seule colonne */
+  grid-row: 1 / span 1; /* Occupe la première ligne */
+}
+
+.card:last-child {
+  grid-column: 1 / span 2; /* Occupe deux colonnes */
+  grid-row: 2 / span 1; /* Occupe la deuxième ligne */
+}
+
+.card {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.card-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #53acd6;
+}
+
+.card-icon i {
+  font-size: 5em;
+}
+
+.card-content {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.5em;
+}
+
+.card-value {
+  font-size: 2em;
+}

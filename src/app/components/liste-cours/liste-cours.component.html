@@ -1,0 +1,58 @@
+
+
+
+
+
+<div class="page-wrapper">
+    <div class="main-content">
+        <div class="section-content section-content-p30">
+            <div class="container-fluid">
+                <div class="row">
+                    
+    
+                      <!-- PAGE CONTAINER-->
+                        <div class="page-container">
+                          <!-- HEADER DESKTOP-->
+                          <header class="header-desktop">
+                            <div class="section-content section-content-p30">
+                              <div class="container-fluid">
+                                <div class="header-wrap">
+                                  <form class="form-header" onsubmit="return false;" method="GET">
+                                    <input class="au-input au-input-xl" type="text" name="search" placeholder="Search for data ..." />
+                                    <button class="au-btn-submit" type="submit">
+                                      <i class="fa fa-search"></i> Search
+                                    </button>
+                                  </form>
+                                  <div class="cart-area d-n">
+                                    <a routerLink="/cart-details" class="cart-area-inner">
+                                      <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                      <div class="total">{{ totalPrice | currency:'EUR'}}
+                                        <span> |Quantités: {{ totalQuantity }} </span> 
+                                    </div> 
+                                    
+                                    </a>
+                                </div>
+                                  <!-- <app-cart-status></app-cart-status> -->
+    
+                                </div>
+                                <div class="account-wrap"></div>
+                              </div>
+                            </div>
+                          </header>
+                        </div>
+                    
+    
+                        <div *ngFor="let tempCours of cours" class="col-md-3">
+                            <div class="cours-box">
+                                <h4>{{ tempCours.name }}</h4>
+                                <h6>{{ tempCours.description }}</h6>
+                                <div class="price">{{ tempCours.price| currency:'EUR' }}</div>
+                                <button (click)="addToCart(tempCours)" class="btn btn-primary btn-sm">Ajouter au panier</button>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>

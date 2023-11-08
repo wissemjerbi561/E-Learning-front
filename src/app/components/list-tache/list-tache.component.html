@@ -1,0 +1,31 @@
+<h2>  les Detail de cette activite</h2>
+<div>
+        <p><strong>Description:</strong> {{ activite.description }}</p>
+    <p><strong> Durée:</strong> {{ activite.dure }}</p>
+    
+  </div>
+  <h2>  List des Taches</h2>
+  <button  style='margin-right:12px; background-color: blue;' [routerLink]="['/add-tache/',activite.idActivite]"
+  class="btn btn-success">Add tache <i
+      class="fa fa-angle-right"></i></button>
+<table *ngIf="taches">
+    <tr>
+      <th>Description</th>
+      <th>Duré/jour</th>
+      
+      <th>Actions</th>
+    </tr>
+    
+    <tr *ngFor="let tache of taches">
+      <td>{{tache.description}}</td>
+      <td>{{tache.dure}}</td>
+      <button style='margin-right:12px' (click)="updateTache(tache.idTache)" class="btn btn-success"> Modifer</button>
+
+     <!--<button style='margin-right:12px' (click)="deleteTache(tache.idTache)" class = "btn btn-danger" > Supprimer</button>--> 
+
+      <button  style='margin-right:12px;font-size: 14px; background-color: rgb(255, 0, 55);'(click)="deactiverTache(tache.idTache)" > deactiver</button>
+
+
+    </tr>
+
+</table>

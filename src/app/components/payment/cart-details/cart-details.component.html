@@ -1,0 +1,43 @@
+
+
+<div class="main-content">
+    <div class="section-content section-content-p30">
+
+        <div *ngIf="cartItems.length >0">
+
+            <table class="table table-bordered">
+                <tr>
+                    <th width="50%">Les détailles de votre panier</th>
+                </tr>
+
+                <tr *ngFor="let tempCartItem of cartItems">
+                    <td>
+                        <p>{{tempCartItem.name}}</p>
+                    </td>
+                    <td>
+                        <p>{{tempCartItem.price | currency:'EUR' }}</p>
+                    </td>
+                    <td>
+                        <button (click)="remove(tempCartItem)" class="btn btn-primary remove">Remove</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
+                    <td style="font-weight: bold">
+                        <p>Total Quantity: {{ totalQuantity }}</p>
+                        <p>Total price: {{ totalPrice | currency:'EUR' }}</p>
+                        <!--<a routerLink="/checkout" class="btn btn-primary checkout">Checkout</a>-->
+                        <a  class="btn btn-primary checkout" (click)="pay()">Checkout</a>
+                        
+                    </td>
+                </tr>
+            </table>
+
+            
+        </div>
+        <!--if cart is empty-->
+        <div *ngIf="cartItems.length==0" class="alert alert-warning col-md-12" role="alert">
+            Votre panier est vide .
+        </div>
+    </div>
+</div>

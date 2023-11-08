@@ -1,0 +1,42 @@
+.custom-card {
+    width: 500px; 
+    height: 400px; 
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid rgb(104, 193, 228)
+  }
+  
+  .custom-form {
+    width: 100%;
+  }
+  
+  
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .button-container button {
+    margin: 0 10px;
+  }
+
+  .custom-form-field {
+    width: 100%;
+  }
+  
+  .custom-form-field .mat-form-field-infix {
+    font-size: 16px; 
+  }
+  
+  .custom-form-field .mat-input-element {
+    height: 48px; 
+  }
+  
+  

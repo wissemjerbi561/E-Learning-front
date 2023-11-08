@@ -1,0 +1,149 @@
+.home {
+  padding: 16px;
+}
+.home .header h1,
+h1 {
+  font-weight: 500;
+}
+.content {
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+.total-task-chart {
+  height: 100%;
+}
+.total-task-analytics {
+  display: flex;
+  align-items: flex-start;
+  margin: 15px 0 15px 0;
+}
+.total-task-analytics,
+.total-task .data {
+  font-size: 29px;
+  font-weight: 500;
+}
+
+.total-task-analytics:nth-child(1) .display {
+  background: var(--done-color);
+}
+.total-task-analytics:nth-child(2) .display {
+  background: var(--todo-color);
+}
+.total-task-analytics:nth-child(3) .display {
+  background: var(--pending-color);
+}
+.total-task-analytics .display {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  margin: 0 20px 0 20px;
+}
+.total-task-analytics .data-type {
+  font-size: 20px;
+  font-weight: 500;
+  color: #c3c5cd;
+}
+
+.total-task-chart .chart {
+  display: block;
+  width: 291px;
+  height: 237px;
+  margin-left: -106px;
+}
+
+.total-task-chart .chart canvas {
+  width: 100px !important;
+  height: 100% !important;
+}
+
+.total-task-chart {
+  position: relative;
+}
+.total-task {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: 24px;
+  text-align: center;
+}
+.card {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-icon {
+  font-size: 60px;
+  color: #5069da;
+  margin-right: 10px;
+}
+
+.card-content {
+  flex-grow: 1;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-value {
+  font-size: 24px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+.pagination {
+  display: flex;
+  align-items: center;
+}
+
+.pagination button {
+  margin-right: 10px;
+}
+.icon-active {
+  color: green; /* Couleur pour les projets actifs */
+}
+
+.icon-archived {
+  color: red; /* Couleur pour les projets archivés */
+}
+.table-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+

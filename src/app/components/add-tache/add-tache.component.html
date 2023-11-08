@@ -1,0 +1,203 @@
+<style>
+
+  /* Style pour le formulaire */
+ 
+ form {
+   margin-top: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ 
+ .form-group {
+   margin-bottom: 15px;
+   width: 100%;
+   max-width: 400px;
+ }
+ 
+ label {
+   display: block;
+   margin-bottom: 5px;
+   color: #007bff; /* Add color to the label */
+ }
+ 
+ input[type="text"],
+ textarea {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+ }
+ 
+ input[type="date"] {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+ }
+ 
+ button[type="submit"] {
+   padding: 10px;
+   background-color: #007bff;
+   color: #fff;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+ 
+ button[type="submit"]:hover {
+   background-color: #0062cc;
+ }
+ 
+ /* Style pour le titre */
+ 
+ h2 {
+   font-size: 1.5em;
+   margin-bottom: 20px;
+   color: #007bff; /* Add color to the title */
+ }
+ 
+ div {
+   border: 1px solid #ccc;
+   padding: 10px;
+   margin-bottom: 20px;
+   background-color: #f9f9f9;
+ }
+ 
+ div p {
+   margin-bottom: 5px;
+ }
+ 
+ div p strong {
+   display: inline-block;
+   width: 120px;
+   font-weight: bold;
+ }
+ 
+ /* Add colors to the form */
+ 
+ #description {
+   border: 1px solid #007bff;
+ }
+ 
+ #dateDebut, #dateFin {
+   border: 1px solid #007bff;
+ }
+ 
+ .btn-primary {
+   background-color: #007bff;
+   border-color: #007bff;
+ }
+ 
+ .btn-primary:hover {
+   background-color: #0062cc;
+   border-color: #0062cc;
+ }
+ .btn {
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 5px;
+padding: 15px 30px;
+font-size: 24px;
+cursor: pointer;
+position: relative;
+overflow: hidden;
+}
+
+.btn:before {
+content: "";
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: rgba(255, 255, 255, 0.2);
+top: 0;
+left: -100%;
+z-index: 2;
+transition: all 0.4s ease;
+}
+
+.btn:hover:before {
+left: 0;
+}
+
+.btn:after {
+content: "";
+position: absolute;
+width: 14px;
+height: 14px;
+border-radius: 50%;
+background-color: #fff;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%) scale(0);
+transition: all 0.4s ease;
+z-index: 3;
+}
+
+.btn:hover:after {
+transform: translate(-50%, -50%) scale(30);
+opacity: 0;
+}
+.panel-body {
+padding: 20px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+}
+
+th,
+td {
+padding: 10px;
+text-align: left;
+vertical-align: middle;
+}
+
+th {
+background-color: #007bff;
+color: #fff;
+}
+
+tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+
+ 
+ </style>
+ 
+
+<h2>Ajouter des taches pour cette activité </h2>
+
+
+ 
+<form (ngSubmit)="onSubmit()" #form="ngForm">
+
+<div class="form-group">
+<label for="description">tache :</label>
+  <textarea id="description" class="form-control" name="description" [(ngModel)]="tache.description"
+  ></textarea>
+</div>
+
+<div class="form-group">
+  <label for="dateDebut">Durée/jour:</label>
+  <input type="number" id="dure" class="form-control" name="dure"[(ngModel)]="tache.dure">
+
+<div *ngIf="tache.dure > activite.dure" class="error-message">
+  La durée de la tache ne peut pas dépasser la durée du l'activité.
+</div>
+</div>
+
+
+
+
+
+<button type="submit" class="btn btn-primary" [disabled]="tache.dure > activite.dure || form.invalid">Ajouter</button>
+
+</form>
+
+

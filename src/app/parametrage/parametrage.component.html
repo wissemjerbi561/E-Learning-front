@@ -1,0 +1,29 @@
+<div class="container rounded bg-white mt-5 mb-5">
+  <h1 class="centered-title">Gestion du type de notification</h1>
+
+  <form (submit)="onSubmit()">
+    
+    
+   
+    
+    <div class="form-group">
+      <label for="name">NomType:</label>
+      <textarea class="form-control form-control-sm" id="name" name="name" [(ngModel)]="nouveauTypeNotification.typeName" required></textarea>
+    </div>
+    <div class="form-group">
+      <label for="code">Code:</label>
+      <input type="text" class="form-control" id="code" name="code" [(ngModel)]="nouveauTypeNotification.code" required>
+    </div>
+    <div class="form-group">
+      <label for="path">Path:</label>
+      <select class="form-control form-control-sm" id="path" name="path" [(ngModel)]="nouveauTypeNotification.path" required>
+        <option value="listcours">demande d'aide</option>
+        <option value="cours">cours</option>
+        <option value="projets">projet</option>
+      </select>
+    </div>
+    <div class="text-center">
+      <button type="submit" class="btn btn-primary">Ajouter</button>
+    </div>
+  </form>
+</div>

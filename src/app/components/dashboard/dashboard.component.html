@@ -1,0 +1,77 @@
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+<div class="home">
+    <h1>Dashboard</h1>
+    <div class="content">
+        <div class="chart">
+            <canvas baseChart [data]="doughnutChartData" [labels]="doughnutChartLabels" [chartType]="doughnutChartType"
+                [options]="doughnutChartOptions" [colors]="doughnutChartColor">
+            </canvas>
+        </div>
+      
+        <div class="card">
+            <div class="card-icon">
+                <i class="bi bi-graph-up"></i>            </div>
+            <div class="card-content">
+                <p class="card-title">Nombre total de projets</p>
+                <p class="card-value">{{ totalProjets }}</p>
+                
+            </div>
+        </div>
+    
+    <div class="card">
+        <div class="card-icon">
+            <i class="bi bi-graph-up"></i>            </div>
+        <div class="card-content">
+            <p class="card-title">Nombre total des apprenants</p>
+            <p class="card-value">{{ totalApprenant }}</p>
+        </div>
+    </div>
+
+</div>
+</div>
+<div class="table-container">
+
+<table  class="table">
+    <thead>
+      <tr>
+        <th>Description du projet</th>
+        <th>Statut du projet</th>
+        <th>Description de la phase</th>
+        <th>Statut de la phase</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let projet of pagedData">
+        <td>{{ projet.description }}</td>
+        <td>
+            <i class="fas" [ngClass]="{ 'fa-check-circle': !projet.status, 'fa-times-circle': projet.status, 'icon-active': !projet.status, 'icon-archived': projet.status }"></i>
+            <td>{{ projet.phases[0]?.description ? projet.phases[0]?.description : 'Pas encore lancé' }}</td>
+            <td>
+              <i class="fas" [ngClass]="{
+                'fa-spinner': projet.phases[0]?.status === 'en cours',
+                'fa-check': projet.phases[0]?.status === 'terminé',
+                'fa-clock': !projet.phases[0]?.status && !projet.phases[0]?.description
+              }"></i>
+            </td>
+      </tr>
+   
+    </tbody>
+  </table>
+</div>
+  <div class="pagination">
+    <button (click)="previousPage()" [disabled]="currentPage === 0">
+      <i class="fas fa-chevron-left"></i>
+    </button>
+    <div>
+      Nombre de pages : {{ totalPages }}
+    </div>
+    <button (click)="nextPage()" [disabled]="currentPage === totalPages - 1">
+      <i class="fas fa-chevron-right"></i>
+    </button>
+  </div>
+  
+  
+  

@@ -1,0 +1,33 @@
+
+<button class="btn btn-outline-success mt-2" routerLink="/add-position"><span class="glyphicon">&#x2b;</span>Ajouter une position</button>
+
+<h1>Les Positions</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Nom</th>
+      <th>Code</th>
+      <th>Niveau</th>
+      
+      
+      <th>Modifier</th>
+      <th>Désactiver</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let position of positions">
+        <td>{{ position.name }}</td>
+        <td>{{ position.code }}</td>
+        <td>{{ position.level }}</td>
+        
+        
+        <td> <button class="edit-btn" (click)="updatePosition(position)"><i class='fas fa-pen'></i></button></td>
+        <td> <button class="delete-btn" (click)="desactiverPosition(position.positionId)"><i class="bi bi-trash" style='font-size:24px;color: red;'></i></button></td>
+        
+        
+    </tr>
+  </tbody>
+</table>
+
+
+

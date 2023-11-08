@@ -1,0 +1,32 @@
+<!--<div class="container">
+    <div id="chatbox">
+      <div class="chatlogs" id="chatlogs">
+        <div *ngFor="let log of chatLogs" class="chat">
+          <div class="user-photo"></div>
+          <p class="chat-message">{{ log }}</p>
+        </div>
+        <div *ngIf="chatbotResponse" class="chat">
+          <div class="user-photo"></div>
+          <p class="chat-message">Chatbot: {{ chatbotResponse }}</p>
+        </div>
+      </div>
+      <div class="chat-form">
+        <div class="input-group">
+          <input type="text" class="form-control" [(ngModel)]="message" placeholder="Entrez votre message ici...">
+          <div class="input-group-append">
+            <button class="btn btn-primary" type="button" (click)="onSendMessage()">Envoyer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>-->
+
+  <div>
+    <input type="text" [(ngModel)]="userMessage" placeholder="Entrez votre message ici...">
+    <button (click)="sendMessage()">Envoyer</button>
+    <button (click)="getVoiceResponse()">Reconnaissance vocale</button>
+    </div>
+    <div>
+    <p>Réponse du bot :</p>
+    <div *ngFor="let response of chatbotResponse">{{ response }}</div>
+    </div>

@@ -1,0 +1,144 @@
+<div class="header-container">
+    <div class="logo">INSY2S</div>
+    <div class="address-container">
+      <div class="address-icon"></div>
+      <div class="address">La manufacture, 3 Rue du Dr Huart, 59260 Lille</div>
+    </div>
+  </div>
+  
+  <div class="navigation-container">
+    <div class="app-name">E-LEARNING</div>
+    
+      
+    <div class="menu-item">
+        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+            
+          <i class="fas fa-user"></i> Moi
+
+        </a>
+        <div class="dropdown-menu m-0">
+          <a routerLink="mon-profil" class="dropdown-item">Mon profil</a>
+          <a  class="dropdown-item">Paramètres du profil</a>
+          <a routerLink="parametrage" class="nav-item nav-link">Paramétrage</a>
+          <a href=login (click)="logout()" class="nav-item nav-link">Déconnexion</a>
+        </div>
+      </div>
+      
+  
+        
+
+  
+      
+        
+    </div>
+  
+  <div class="menu-container">
+    <div class="menu-item">
+      <a routerLink="" class="nav-item nav-link active">ACCUEIL</a>
+    </div>
+    <div class="menu-item">
+      <a routerLink="about" class="nav-item nav-link">A PROPOS</a>
+    </div>
+    <div class="menu-item">
+      <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Projet</a>
+              <div class="dropdown-menu m-0">
+                  <a routerLink="projets" class="dropdown-item">Liste des projets</a>
+                  <a routerLink="createprojet" class="dropdown-item">Ajouter projet</a>
+                  <a routerLink="controle" class="dropdown-item">Suivi projet</a>
+                  <a routerLink="dashboard" class="dropdown-item">Dashboard</a>
+                  <a routerLink="suiviTache" class="dropdown-item">Suivi tâche</a>
+                  
+                          
+              </div>
+    </div>
+    <div class="menu-item">
+      <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Cours</a>
+              <div class="dropdown-menu m-0">
+                  <a routerLink="ajoutcours" class="dropdown-item">Ajout cours</a>
+                  <a routerLink="listcours" class="dropdown-item">Liste des cours</a>
+                  <a routerLink="ajoutSession" class="dropdown-item">Ajout session</a>
+                  <a routerLink="listSession" class="dropdown-item">Liste des sessions</a>
+                  <a routerLink="cours" class="dropdown-item">Liste des cours </a>
+                       
+              </div>
+    </div>
+  
+    <div class="menu-item">
+      <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Paiement</a>
+              <div class="dropdown-menu m-0">
+                  <a routerLink="paymentListAdmin" class="dropdown-item">Liste des paiements</a>
+                  <a routerLink="cours" class="dropdown-item">Liste des cours</a>
+                   
+              </div>
+    </div>
+  
+    <div class="menu-item">
+      <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Membre</a>
+              <div class="dropdown-menu m-0">
+                  <a routerLink="ajout-membre" class="dropdown-item">Ajouter un membre</a>
+                  <a routerLink="membres" class="dropdown-item">Liste des membres</a>
+                  <a routerLink="list-position" class="dropdown-item">Liste des positions</a>
+                  <a routerLink="cours" class="dropdown-item">Liste des cours</a>
+                  <a routerLink="customer-support" class="dropdown-item">ChatBot</a>
+                  <a routerLink="notre-chatbot" class="dropdown-item">Notre chatbot </a>
+                  <a routerLink="mr-bot" class="dropdown-item">Mr. Bot </a>
+              </div>
+    </div>
+    
+  
+    <div class="menu-item">
+      <a routerLink="forum" class="nav-item nav-link">Forum</a>
+    </div>
+  
+    
+    <div class="menu-item">
+
+        <a routerLink="catalogue" class="nav-item nav-link">Catalogue</a>
+
+
+       
+
+    </div>
+  
+    <div class="menu-item">
+        <a routerLink="parametrage" class="nav-item nav-link">Type notification</a>
+       
+
+    </div>
+    <div class="menu-item">
+        <a routerLink="" class="nav-item nav-link">Contact</a>
+
+    </div>
+
+    <div class="notification-icon">
+      <!-- Utilisation de la balise <span> pour envelopper l'icône -->
+      <span class="icon">
+        <!-- Icône de notification (utilisation de Font Awesome) -->
+        <i class="fas fa-bell"></i>
+      </span>
+    </div>
+    
+
+  
+    <div *ngIf="role === 'ADMIN'">
+
+  <div class="menu-item">
+      <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Admin</a>
+              <div class="dropdown-menu m-0">
+                     <a routerLink="addUser" class="dropdown-item">Ajouter User</a>
+                    <a routerLink="createRole" class="dropdown-item">Ajouter Role</a>
+              </div>
+    </div>
+    <div class="notification-icon" onclick="onNotificationIconClick()">
+      <i class="fa fa-bell"></i> <!-- Remplacez "fa-bell" par la classe de votre icône -->
+      <!-- Vous pouvez également utiliser une balise <span> avec une classe pour votre icône -->
+    </div>
+  
+
+
+
+         
+
+  </div>
+  
+  

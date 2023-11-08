@@ -1,0 +1,291 @@
+<h2 class="text-center pb-3 border-bottom border-primary">Suivi de ce projet</h2><div class="row">
+  <div class="DetailsDeProjet" style="color: #00838F; font-size: 24px; font-family: Nunito Sans; font-weight: 700; text-transform: uppercase; word-wrap: break-word">DETAILS DE PROJET</div>
+  <div class="NomDuProjet" style="color: #424242; font-size: 16px; font-family: Nunito; font-weight: 700; line-height: 24px; word-wrap: break-word">Nom du projet :  {{ projet.name }}</div>
+  <div class="NomDuProjet" style="color: #424242; font-size: 16px; font-family: Nunito; font-weight: 700; line-height: 24px; word-wrap: break-word">Description du projet :  {{ projet.description }}</div>
+
+
+ <div class="col-md-12">
+  <div class="border p-3">
+    
+      <p><strong>Tuteurs :</strong></p>
+      <div class="row">
+          <div class="col-md-6">
+              <p><strong>Tuteur professionnel :</strong></p>
+              <select [(ngModel)]="selectedTutor" (ngModelChange)="onchangetuteur($event)">
+                  <option></option> 
+                  <option *ngFor="let member of tutorMembers" [value]="member.memberId">{{ member.firstName + ' ' + member.lastName }}</option>
+              </select>
+
+              
+          </div>
+          
+          <div class="col-md-6">
+           
+      
+      
+            <select [(ngModel)]="selectedPositionTuteurPro" (ngModelChange)="onchangetuteur($event)">
+                <option></option> 
+                <option *ngFor="let position of listpositionpro" [value]="position.positionId">{{ position.name }}</option>
+            </select>
+           
+            
+            
+            <button (click)="Affecter()" class="btn btn-success btn-block" [disabled]="isTutorProfessionnelAssigned()">Affecter tuteur professionnel</button>
+
+          </div>
+          
+          <div class="col-md-6">
+              <p><strong>Tuteur Academique :</strong></p>
+              <select [(ngModel)]="selectedTuteurAcademique" (ngModelChange)="onchangetuteur($event)">
+                  <option></option> 
+                  <option *ngFor="let member of tuteurAcademique" [value]="member.memberId">{{ member.firstName + ' ' + member.lastName }}</option>
+              </select>
+          </div>
+          <div class="col-md-6">
+           
+            <select [(ngModel)]="selectedPositionTuteurAcad" (ngModelChange)="onchangetuteur($event)">
+                <option></option> 
+                <option *ngFor="let position of listpositionacad" [value]="position.positionId">{{ position.name }}</option>
+            </select>
+            <button (click)="Affectertuteuracademique()" class="btn btn-success btn-block"  [disabled]="isTutorAcademiqueAssigned()">Affecter tuteur academique</button>
+        </div>
+        <div class="col-md-6">
+          <p><strong>Apprenant d'aide  :</strong></p>
+          <select [(ngModel)]="selectedApprenantaide" (ngModelChange)="onchangetuteur($event)">
+              <option></option> 
+              <option *ngFor="let member of apprenantMembers" [value]="member.memberId">{{ member.firstName + ' ' + member.lastName }}</option>
+          </select>
+        
+      </div>
+   
+    <div class="col-md-6">
+      <p><strong>Position  : <button class="btn-add"  (click)="openModal()">
+        <span>+</span></button></strong></p>
+
+
+      <select [(ngModel)]="selectedPosition" (ngModelChange)="onchangetuteur($event)">
+          <option></option> 
+          <option *ngFor="let position of listpositionaide" [value]="position.positionId">{{ position.name }}</option>
+      </select>
+      
+      <button (click)="AffecterApprenantaide()" class="btn btn-success btn-block" [disabled]="isTutorApprenantdaideAssigned()">Affecter apprenant d'aide</button>
+  </div>
+          <div class="col-md-6">
+            <p><strong>Apprenant de vérification  :</strong></p>
+            <select [(ngModel)]="selectedApprenantverification" (ngModelChange)="onchangetuteur($event)">
+                <option></option> 
+                <option *ngFor="let member of apprenantMembers" [value]="member.memberId">{{ member.firstName + ' ' + member.lastName }}</option>
+            </select>
+          
+        </div>
+     
+      <div class="col-md-6">
+        <p><strong>Position  : <button class="btn-add"  (click)="openModal()">
+          <span>+</span></button></strong> </p>
+      
+        <select [(ngModel)]="selectedPositionn" (ngModelChange)="onchangetuteur($event)">
+            <option></option> 
+            <option *ngFor="let position of listpositionverif" [value]="position.positionId">{{ position.name }}</option>
+        </select>
+        <button (click)="AffecterApprenantverification()" class="btn btn-success btn-block"  [disabled]="isTutorApprenantverificationAssigned()">Affecter apprenant de verification</button>
+    </div>
+      </div>
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close" (click)="closeModal()">&times;</span>
+    <form> 
+      <div class="form-group">
+        <p>Ajouter position :</p>
+        <label>nom position  :</label>
+       <input type="text" id="name" class="form-control" [(ngModel)]="p.name" name="name">
+
+       
+        <label for="objet">Code :</label>
+        <input type="text" id="code" class="form-control" [(ngModel)]="p.code" name="code">
+      </div>
+      <div class="form-group">
+        <label for="message">Niveau :</label>
+        <textarea type="number" class="form-control" [(ngModel)]="p.level" name="level"></textarea>
+      </div>
+    
+      <button class="btn btn-primary" (click)="savePosition()">Envoyer</button>
+      
+    </form>
+  </div>
+</div>
+
+<p><strong>List des Tuteurs pour ce projet :</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nom</th>
+      <th>Rôle</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let affectationprojet of membersprojet">
+      <td>
+        <select [(ngModel)]="affectationprojet.memberId" disabled="true">
+          <option *ngFor="let member of apprenantMembers" [value]="member.memberId">{{ member.firstName + ' ' + member.lastName }}</option>
+          <option *ngFor="let member of tutorMembers" [value]="member.memberId">{{ member.firstName + ' ' + member.lastName }}</option>
+          <option *ngFor="let member of tuteurAcademique" [value]="member.memberId">{{ member.firstName + ' ' + member.lastName }}</option>
+        </select>
+      </td>
+
+      <td>
+        <select [(ngModel)]="affectationprojet.positionId" disabled="true">
+          <option *ngFor="let position of listpositionaide" [value]="position.positionId">{{ position.name }}</option>
+          <option *ngFor="let position of listpositionverif" [value]="position.positionId">{{ position.name }}</option>
+          <option *ngFor="let position of listpositionacad" [value]="position.positionId">{{ position.name }}</option>
+          <option *ngFor="let position of listpositionpro" [value]="position.positionId">{{ position.name }}</option>
+
+
+
+        </select>
+      </td>   
+
+
+      <td>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<div class="col-md-6">
+
+
+  <div class="ProgrammerAvecPython" style="color: #424242; font-size: 16px; font-family: Nunito; font-weight: 700; line-height: 24px; word-wrap: break-word">Liste de tâches non affectées</div>
+<table>
+<thead>
+  <tr>
+    <th>Description</th>
+    <th>Durée/jour</th>
+  
+
+  
+    <th>Assigner à apprenant de réalisation </th>
+
+
+    <th>Actions</th>
+
+    
+  </tr>
+</thead>
+
+<tbody>
+    <tbody *ngIf="taches.length > 0; else aucunTache">
+  <tr *ngFor="let tache of taches; let index=index">
+    <td>{{tache.description}}</td>
+    <td>{{tache.dure}}</td>
+   
+
+
+    
+    <td>
+      <select  [(ngModel)]="affectationTaches[index].memberId"(ngModelChange)="onchangeaprenant($event,tache.idTache,index)">
+        <option ></option> 
+ 
+        <option *ngFor="let member of apprenantMembers" [value]="member.memberId">{{ member.firstName  }}</option>
+      </select>
+    </td>
+    
+    
+    <td><button style='margin-right:12px'(click)="Affecterr(tache.idTache,index)" class="btn btn-success btn-block" type="submit" >Affecter</button>
+    <button style='margin-right:12px' (click)="updateTache(tache.idTache)" class="btn btn-success"> Modifer</button></td>
+
+  </tr>
+</tbody>
+</table>
+<ng-template #aucunTache>
+  <p class="center-text"><strong>Tous les tâches sont affectés.</strong></p>
+</ng-template>
+</div>
+<div class="col-md-6">
+
+  
+  <div class="ProgrammerAvecPython" style="color: #424242; font-size: 16px; font-family: Nunito; font-weight: 700; line-height: 24px; word-wrap: break-word">Liste de tâches affectées</div><table *ngIf="affectationTaches">
+
+  
+
+
+
+ <th>  Date Debut</th>
+ <th>  Date Fin</th>
+ <th>  description de tache</th>
+ <th>  Nom et Prenom de membre de réalisation </th>
+
+
+
+
+ 
+ <tr *ngFor="let affectationTache of affectationTachess ">
+
+   
+   <td>{{affectationTache.tache.dateDebut|date}}</td>
+
+   <td>{{affectationTache.tache.dateFin|date}}</td>
+
+   <td>{{affectationTache.tache.description}}</td>
+  
+
+<td>
+   <select  [(ngModel)]="affectationTache.memberId" disabled="true"> 
+
+    <option *ngFor="let member of apprenantMembers" [value]="member.memberId">{{ member.firstName+' '+ member.lastName}}</option>
+  </select>   
+</td>
+
+ </tr>
+
+</table> 
+</div>
+<div *ngIf="phases.length === 0">
+  <button  *ngIf="showButton" style='margin-right:12px; font-size: 12px; background-color: blue;' (click)="lancer(projet.idProjet)">Lancer le projet </button>
+</div>
+<p><strong>List des Phase :</strong></p>
+
+<table *ngIf="phases">
+  
+
+   <th>Nom de la phase </th>
+
+  <th>  Date Debut</th>
+  <th>  Date Fin</th>
+  <th>  Status</th>
+
+
+  
+  <tr *ngFor="let phase of phases">
+    <td>{{phase.description}}</td>
+    
+    <td>{{phase.dateDebut|date}}</td>
+
+    <td>{{phase.dateFin|date}}</td>
+
+    <td>{{phase.status}}</td>
+
+
+    
+  
+  </tr>
+
+</table>
+
+</div>
+
+<button  *ngIf="phases && phases.length === 1" style='margin-right:12px; font-size: 12px; background-color: blue;' (click)="suivant(projet.idProjet)"class="btn btn-success"> Suivant<i class="fa fa-angle-right"></i></button>
+<button *ngIf="phases && phases.length === 2" style='margin-right:12px; font-size: 12px; background-color: blue;' (click)="suivant2(projet.idProjet)"class="btn btn-success"> Suivant <i class="fa fa-angle-right"></i></button>
+<button  *ngIf="phases && phases.length === 3"style='margin-right:12px; font-size: 12px; background-color: blue;' (click)="suivant3(projet.idProjet)"class="btn btn-success"> Suivant <i class="fa fa-angle-right"></i></button>
+
+<button  *ngIf="phases && phases.length === 4"style='margin-right:12px; font-size: 12px; background-color: blue;' (click)="suivant4(projet.idProjet)"class="btn btn-success"> Suivant <i class="fa fa-angle-right"></i></button>
+<div *ngIf="phases && phases.length === 5 && phases[4].status !== 'terminé'">
+  <button style='margin-right:12px; font-size: 12px; background-color: blue;' (click)="terminer(projet.idProjet)" class="btn btn-success">Terminer</button>
+</div>
+
+
+           
+        

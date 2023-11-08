@@ -1,0 +1,4862 @@
+:host { 
+    display: contents; 
+  }
+  .coursdescriptionnonconncect-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .coursdescriptionnonconncect-coursdescriptionnonconncect {
+    width: 100%;
+    height: 3202px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(248, 248, 248, 1);
+  }
+  .coursdescriptionnonconncect-header {
+    top: 40px;
+    left: 0px;
+    width: 1440px;
+    height: 60px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: var(--dl-color-default-cyandarker3);
+  }
+  .coursdescriptionnonconncect-header1 {
+    top: 2489px;
+    left: 6230px;
+    width: 1440px;
+    height: 60px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: var(--dl-color-default-cyandarker3);
+  }
+  .coursdescriptionnonconncect-text {
+    top: 19px;
+    left: 79px;
+    color: rgba(255, 255, 255, 1);
+    width: 148px;
+    height: auto;
+    position: absolute;
+    font-size: 32px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Space Mono;
+    font-weight: 700;
+    line-height: 24px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-iconsheader {
+    gap: 24px;
+    top: 4px;
+    left: 1046px;
+    width: 314px;
+    display: flex;
+    padding: 8px 0;
+    position: absolute;
+    align-items: center;
+  }
+  .coursdescriptionnonconncect-chipiconbutton {
+    gap: 8px;
+    width: 126px;
+    height: 36px;
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    justify-content: space-between;
+  }
+  .coursdescriptionnonconncect-content {
+    gap: 8px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text002 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 12px;
+    font-style: SemiBold;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 600;
+    line-height: 36px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-iconographie {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-iconographie01 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-iconographie02 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-loginchip {
+    gap: 8px;
+    height: 36px;
+    display: flex;
+    padding: 8px;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+  }
+  .coursdescriptionnonconncect-text004 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-iconographie03 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-text006 {
+    top: 19px;
+    left: 79px;
+    color: rgba(255, 255, 255, 1);
+    width: 148px;
+    height: auto;
+    position: absolute;
+    font-size: 32px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Space Mono;
+    font-weight: 700;
+    line-height: 24px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-iconsheader1 {
+    gap: 24px;
+    top: 4px;
+    left: 945px;
+    width: 415px;
+    display: flex;
+    padding: 8px 0;
+    position: absolute;
+    align-items: center;
+  }
+  .coursdescriptionnonconncect-chipiconbutton1 {
+    gap: 8px;
+    width: 126px;
+    height: 36px;
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    justify-content: space-between;
+  }
+  .coursdescriptionnonconncect-content01 {
+    gap: 8px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text008 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 12px;
+    font-style: SemiBold;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 600;
+    line-height: 36px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-iconographie04 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-iconographie05 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-loginchip1 {
+    gap: 8px;
+    height: 36px;
+    display: flex;
+    padding: 8px;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+  }
+  .coursdescriptionnonconncect-text010 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-iconographie06 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-loginchip2 {
+    gap: 8px;
+    height: 36px;
+    display: flex;
+    padding: 8px;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+  }
+  .coursdescriptionnonconncect-text012 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-frame32 {
+    top: 1226px;
+    left: 84px;
+    width: 1280px;
+    height: 469px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-text014 {
+    color: var(--dl-color-default-cyandarker3);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-frame321 {
+    top: 73px;
+    left: 0px;
+    width: 1005px;
+    height: 396px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(238, 238, 238, 1);
+    border-style: solid;
+    border-width: 1px;
+  }
+  .coursdescriptionnonconncect-text016 {
+    left: 8px;
+    color: var(--dl-color-default-cyandarker3);
+    width: 174px;
+    height: auto;
+    position: absolute;
+    flex-grow: 1;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: Bold;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-text017 {
+    left: 205px;
+    color: var(--dl-color-default-cyandarker3);
+    width: 167px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: Bold;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-text019 {
+    left: 410px;
+    color: var(--dl-color-default-cyandarker3);
+    width: 386px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: Bold;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-text021 {
+    left: 812px;
+    color: var(--dl-color-default-cyandarker3);
+    width: 193px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: Bold;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-frame161 {
+    gap: 1px;
+    top: 32px;
+    left: 0px;
+    width: 998px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-dropdownchapitres {
+    width: 998px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(117, 117, 117, 0.6000000238418579);
+    border-style: solid;
+    border-width: 0 0 1px;
+  }
+  .coursdescriptionnonconncect--dtexttablesubtitle {
+    gap: 4px;
+    width: 190px;
+    height: 72px;
+    display: flex;
+    padding: 8px;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-text023 {
+    color: var(--dl-color-default-cyandarker3);
+    height: auto;
+    font-size: 16px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-iconographie07 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-tdtextstart {
+    gap: 8px;
+    width: 215px;
+    height: 72px;
+    display: flex;
+    padding: 8px;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-text025 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    flex-grow: 1;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 20px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-tdtextstart01 {
+    gap: 8px;
+    width: 399px;
+    height: 72px;
+    display: flex;
+    padding: 8px 16px;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-text027 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    flex-grow: 1;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-tdtextstart02 {
+    gap: 10px;
+    width: 194px;
+    height: 72px;
+    display: flex;
+    padding: 10px 8px;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-iconographie08 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-dropdownchapitres1 {
+    width: 998px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(117, 117, 117, 0.6000000238418579);
+    border-style: solid;
+    border-width: 0 0 1px;
+  }
+  .coursdescriptionnonconncect--dtexttablesubtitle1 {
+    gap: 4px;
+    width: 190px;
+    height: 72px;
+    display: flex;
+    padding: 8px;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-text029 {
+    color: var(--dl-color-default-cyandarker3);
+    height: auto;
+    font-size: 16px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-iconographie09 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-tdtextstart03 {
+    gap: 8px;
+    width: 215px;
+    height: 72px;
+    display: flex;
+    padding: 8px;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-text031 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    flex-grow: 1;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 20px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-tdtextstart04 {
+    gap: 8px;
+    width: 399px;
+    height: 72px;
+    display: flex;
+    padding: 8px 16px;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-text033 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    flex-grow: 1;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-tdtextstart05 {
+    gap: 10px;
+    width: 194px;
+    height: 72px;
+    display: flex;
+    padding: 10px 8px;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-iconographie10 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-dropdownchapitres2 {
+    width: 998px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(117, 117, 117, 0.6000000238418579);
+    border-style: solid;
+    border-width: 0 0 1px;
+  }
+  .coursdescriptionnonconncect--dtexttablesubtitle2 {
+    gap: 4px;
+    width: 190px;
+    height: 72px;
+    display: flex;
+    padding: 8px;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-text035 {
+    color: var(--dl-color-default-cyandarker3);
+    height: auto;
+    font-size: 16px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-iconographie11 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-tdtextstart06 {
+    gap: 8px;
+    width: 215px;
+    height: 72px;
+    display: flex;
+    padding: 8px;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-text037 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    flex-grow: 1;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 20px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-tdtextstart07 {
+    gap: 8px;
+    width: 399px;
+    height: 72px;
+    display: flex;
+    padding: 8px 16px;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-text039 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    flex-grow: 1;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-tdtextstart08 {
+    gap: 10px;
+    width: 194px;
+    height: 72px;
+    display: flex;
+    padding: 10px 8px;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-iconographie12 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-dropdownchapitres3 {
+    width: 998px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(117, 117, 117, 0.6000000238418579);
+    border-style: solid;
+    border-width: 0 0 1px;
+  }
+  .coursdescriptionnonconncect--dtexttablesubtitle3 {
+    gap: 4px;
+    width: 190px;
+    height: 72px;
+    display: flex;
+    padding: 8px;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-text041 {
+    color: var(--dl-color-default-cyandarker3);
+    height: auto;
+    font-size: 16px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-iconographie13 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-tdtextstart09 {
+    gap: 8px;
+    width: 215px;
+    height: 72px;
+    display: flex;
+    padding: 8px;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-text043 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    flex-grow: 1;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 20px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-tdtextstart10 {
+    gap: 8px;
+    width: 399px;
+    height: 72px;
+    display: flex;
+    padding: 8px 16px;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-text045 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    flex-grow: 1;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-tdtextstart11 {
+    gap: 10px;
+    width: 194px;
+    height: 72px;
+    display: flex;
+    padding: 10px 8px;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-iconographie14 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-dropdownchapitres4 {
+    width: 998px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(117, 117, 117, 0.6000000238418579);
+    border-style: solid;
+    border-width: 0 0 1px;
+  }
+  .coursdescriptionnonconncect--dtexttablesubtitle4 {
+    gap: 4px;
+    width: 190px;
+    height: 72px;
+    display: flex;
+    padding: 8px;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-text047 {
+    color: var(--dl-color-default-cyandarker3);
+    height: auto;
+    font-size: 16px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-iconographie15 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-tdtextstart12 {
+    gap: 8px;
+    width: 215px;
+    height: 72px;
+    display: flex;
+    padding: 8px;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-text049 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    flex-grow: 1;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 20px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-tdtextstart13 {
+    gap: 8px;
+    width: 399px;
+    height: 72px;
+    display: flex;
+    padding: 8px 16px;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-text051 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    flex-grow: 1;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-tdtextstart14 {
+    gap: 10px;
+    width: 194px;
+    height: 72px;
+    display: flex;
+    padding: 10px 8px;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-iconographie16 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-text053 {
+    top: 243px;
+    left: 76px;
+    color: var(--dl-color-default-cyandarker3);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-frame194 {
+    top: 743px;
+    left: 76px;
+    width: 1288px;
+    height: 431px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-text054 {
+    left: 4px;
+    color: var(--dl-color-default-cyandarker3);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect--dtexticon {
+    gap: 4px;
+    top: 381px;
+    left: 0px;
+    width: 128px;
+    height: 40px;
+    display: flex;
+    padding: 8px;
+    overflow: hidden;
+    position: absolute;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-text056 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    font-size: 14px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    line-height: 16px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-iconographie17 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-text058 {
+    top: 63px;
+    left: 3px;
+    color: var(--dl-color-default-greydarken3);
+    width: 981px;
+    height: auto;
+    position: absolute;
+    text-align: justified;
+    line-height: 24px;
+  }
+  .coursdescriptionnonconncect-frame41 {
+    top: 259px;
+    left: 1085px;
+    width: 279px;
+    height: 459px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-text077 {
+    top: 409px;
+    left: 5px;
+    color: var(--dl-color-default-greydarken3);
+    width: 270px;
+    height: auto;
+    position: absolute;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-text079 {
+    top: 432px;
+    left: 5px;
+    color: var(--dl-color-default-greydarken3);
+    width: 157px;
+    height: auto;
+    position: absolute;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-courscard {
+    top: -2px;
+    left: 0px;
+    width: 279px;
+    display: flex;
+    padding: 0 4px;
+    position: absolute;
+    box-shadow: 1px 1px 4px 0px rgba(38, 198, 218, 0.1599999964237213) ;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-matimg {
+    width: 279px;
+    height: 132.3722686767578px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-matcardtitle {
+    display: flex;
+    padding: 4px 0;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(233, 252, 255, 1);
+    border-style: solid;
+    border-width: 0 0 1px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-text081 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    flex-grow: 1;
+    text-align: left;
+    line-height: 24px;
+  }
+  .coursdescriptionnonconncect-frame11 {
+    display: flex;
+    padding: 4px 0;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .coursdescriptionnonconncect-matcardsubtitle {
+    gap: 8px;
+    display: flex;
+    overflow: hidden;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .coursdescriptionnonconncect-text083 {
+    color: var(--dl-color-default-greydarken2);
+    width: 51px;
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-matcardsubtitle01 {
+    gap: 4px;
+    width: 123px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-text085 {
+    color: rgba(253, 216, 53, 1);
+    height: auto;
+    font-size: 12px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-rating {
+    display: flex;
+    align-items: flex-start;
+  }
+  .coursdescriptionnonconncect-matrating {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-matbtn {
+    display: flex;
+    padding: 0 2.473684072494507px;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text087 {
+    color: var(--dl-color-yellow-darken1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matrating01 {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-matbtn01 {
+    display: flex;
+    padding: 0 2.473684072494507px;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text089 {
+    color: var(--dl-color-yellow-darken1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matrating02 {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-matbtn02 {
+    display: flex;
+    padding: 0 2.473684072494507px;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text091 {
+    color: var(--dl-color-yellow-darken1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matrating03 {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-matbtn03 {
+    display: flex;
+    padding: 0 2.473684072494507px;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text093 {
+    color: var(--dl-color-yellow-darken1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matbtn04 {
+    display: flex;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text095 {
+    color: var(--dl-color-grey-lighten1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-frame12 {
+    display: flex;
+    padding: 4px 0;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .coursdescriptionnonconncect-frame20 {
+    gap: 4px;
+    display: flex;
+    align-items: center;
+  }
+  .coursdescriptionnonconncect-iconographie18 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-text097 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-chips {
+    gap: 6px;
+    display: flex;
+    padding: 2px 12px;
+    overflow: hidden;
+    align-items: center;
+    border-color: rgba(253, 216, 53, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 12px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text099 {
+    color: rgba(253, 216, 53, 1);
+    height: auto;
+    font-size: 12px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 20px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-frame13 {
+    display: flex;
+    padding: 4px 0;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-frame201 {
+    gap: 4px;
+    display: flex;
+    align-items: center;
+  }
+  .coursdescriptionnonconncect-iconographie19 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-text101 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-frame14 {
+    display: flex;
+    padding: 4px 0;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-frame202 {
+    gap: 4px;
+    display: flex;
+    align-items: center;
+  }
+  .coursdescriptionnonconncect-iconographie20 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-text103 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-frame15 {
+    display: flex;
+    padding: 4px 0;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-frame203 {
+    gap: 4px;
+    display: flex;
+    align-items: center;
+  }
+  .coursdescriptionnonconncect-iconographie21 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-text105 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-matcardtext {
+    display: flex;
+    padding: 4px 0;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-frame21 {
+    gap: 4px;
+    width: 64px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-iconographie22 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-text107 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    font-size: 24px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matcardtext01 {
+    display: flex;
+    padding: 4px 0;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-mainbutton {
+    height: 36px;
+    display: flex;
+    padding: 0 16px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background-color: var(--dl-color-default-cyanlighten1);
+  }
+  .coursdescriptionnonconncect-content02 {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+  }
+  .coursdescriptionnonconncect-text109 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 12px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 32px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-text111 {
+    top: 180px;
+    left: 80px;
+    color: var(--dl-color-default-cyandarker3);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-menumain {
+    gap: 16px;
+    top: 100px;
+    left: 79px;
+    width: 1026px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+  }
+  .coursdescriptionnonconncect-barmanu {
+    height: 34px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .coursdescriptionnonconncect-frame {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text113 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    font-size: 14px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 32px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-barmanu01 {
+    height: 34px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .coursdescriptionnonconncect-frame01 {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text115 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    font-size: 14px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 32px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-barmanu02 {
+    height: 34px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .coursdescriptionnonconncect-frame02 {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text117 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    font-size: 14px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 32px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-barmanu03 {
+    height: 34px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .coursdescriptionnonconncect-frame03 {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text119 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    font-size: 14px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 32px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-barmanu04 {
+    height: 34px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .coursdescriptionnonconncect-frame04 {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text121 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    font-size: 14px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 32px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-barmanu05 {
+    height: 34px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .coursdescriptionnonconncect-frame05 {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text123 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    font-size: 14px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 32px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-barmanu06 {
+    height: 34px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .coursdescriptionnonconncect-frame06 {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text125 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    font-size: 14px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 32px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-barmanu07 {
+    height: 34px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .coursdescriptionnonconncect-frame07 {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text127 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    font-size: 14px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 32px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-barmanu08 {
+    height: 34px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .coursdescriptionnonconncect-frame08 {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text129 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    font-size: 14px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 32px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-barmanu09 {
+    height: 34px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .coursdescriptionnonconncect-frame09 {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text131 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    font-size: 14px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 32px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-barmanu10 {
+    height: 34px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .coursdescriptionnonconncect-frame10 {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text133 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    font-size: 14px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 32px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-barmanu11 {
+    height: 34px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .coursdescriptionnonconncect-frame11 {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text135 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    font-size: 14px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 32px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-frame59 {
+    top: 1702px;
+    left: 0px;
+    width: 1440px;
+    height: 1261px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(248, 248, 248, 1);
+  }
+  .coursdescriptionnonconncect-text137 {
+    top: 68px;
+    left: 91px;
+    color: var(--dl-color-default-cyandarker3);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-mainbutton1 {
+    top: 663px;
+    left: 622px;
+    width: 197px;
+    height: 36px;
+    display: flex;
+    padding: 0 16px;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4px;
+    justify-content: center;
+    background-color: var(--dl-color-default-cyanlighten1);
+  }
+  .coursdescriptionnonconncect-content03 {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+  }
+  .coursdescriptionnonconncect-text139 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 12px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 32px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-text141 {
+    top: 757px;
+    left: 105px;
+    color: var(--dl-color-default-cyandarker3);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-frame45 {
+    gap: 109px;
+    top: 151px;
+    left: 166px;
+    width: 1109px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+  }
+  .coursdescriptionnonconncect-projetcard {
+    width: 500px;
+    height: 480px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 1px 1px 4px 0px rgba(38, 198, 218, 0.1599999964237213) ;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+  }
+  .coursdescriptionnonconncect-media-textcontent {
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    display: flex;
+    position: absolute;
+    flex-grow: 1;
+    align-self: stretch;
+    align-items: center;
+    flex-direction: column;
+  }
+  .coursdescriptionnonconncect-header2 {
+    display: flex;
+    padding: 12px 16px;
+    align-self: stretch;
+    align-items: flex-end;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-content04 {
+    gap: 16px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+  }
+  .coursdescriptionnonconncect-text143 {
+    gap: 4px;
+    width: 378px;
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .coursdescriptionnonconncect-text144 {
+    color: var(--dl-color-default-cyandarker3);
+    height: auto;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: Bold;
+    text-align: left;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 24px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-text146 {
+    color: var(--dl-color-default-greydarken2);
+    width: 137px;
+    height: auto;
+    text-align: left;
+    line-height: 24px;
+  }
+  .coursdescriptionnonconncect-frame74 {
+    gap: 16px;
+    height: 52px;
+    display: flex;
+    align-items: flex-end;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-frame73 {
+    gap: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .coursdescriptionnonconncect-iconographie23 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-text148 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-media {
+    width: 500px;
+    height: 188px;
+    display: flex;
+    position: relative;
+    flex-grow: 1;
+    align-self: stretch;
+    align-items: flex-start;
+  }
+  .coursdescriptionnonconncect-maskgroup {
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    height: 188px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .coursdescriptionnonconncect-media1 {
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    height: 188px;
+    position: absolute;
+  }
+  .coursdescriptionnonconncect-krzysztofhepnerox11orh9v-qunsplash1 {
+    top: -176px;
+    left: 0px;
+    width: 500px;
+    height: 540px;
+    position: absolute;
+  }
+  .coursdescriptionnonconncect-textcontent {
+    gap: 16px;
+    display: flex;
+    padding: 8px 16px;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-headline {
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-text150 {
+    color: var(--dl-color-default-greydarken3);
+    width: 328px;
+    height: auto;
+    text-align: left;
+    line-height: 24px;
+  }
+  .coursdescriptionnonconncect-frame17 {
+    gap: 24px;
+    width: 472px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .coursdescriptionnonconncect-headline1 {
+    width: 174px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-text152 {
+    color: var(--dl-color-default-greydarken3);
+    width: 162px;
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-chips1 {
+    gap: 6px;
+    display: flex;
+    padding: 2px 12px;
+    overflow: hidden;
+    align-items: center;
+    border-color: rgba(253, 216, 53, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 12px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text154 {
+    color: rgba(253, 216, 53, 1);
+    height: auto;
+    font-size: 12px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 20px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-text156 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    align-self: stretch;
+    text-align: justified;
+    line-height: 24px;
+  }
+  .coursdescriptionnonconncect-actions {
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: flex-end;
+  }
+  .coursdescriptionnonconncect-secondarybutton {
+    height: 36px;
+    display: flex;
+    padding: 0 16px;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(38, 198, 218, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-content05 {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text158 {
+    color: var(--dl-color-default-cyanlighten1);
+    height: auto;
+    font-size: 12px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 32px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-projetcard1 {
+    width: 500px;
+    height: 480px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 1px 1px 4px 0px rgba(38, 198, 218, 0.1599999964237213) ;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+  }
+  .coursdescriptionnonconncect-media-textcontent1 {
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    display: flex;
+    position: absolute;
+    flex-grow: 1;
+    align-self: stretch;
+    align-items: center;
+    flex-direction: column;
+  }
+  .coursdescriptionnonconncect-header3 {
+    display: flex;
+    padding: 12px 16px;
+    align-self: stretch;
+    align-items: flex-end;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-content06 {
+    gap: 16px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+  }
+  .coursdescriptionnonconncect-text160 {
+    gap: 4px;
+    width: 378px;
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .coursdescriptionnonconncect-text161 {
+    color: var(--dl-color-default-cyandarker3);
+    height: auto;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: Bold;
+    text-align: left;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 24px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-text163 {
+    color: var(--dl-color-default-greydarken2);
+    width: 137px;
+    height: auto;
+    text-align: left;
+    line-height: 24px;
+  }
+  .coursdescriptionnonconncect-frame741 {
+    gap: 16px;
+    height: 52px;
+    display: flex;
+    align-items: flex-end;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-frame731 {
+    gap: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .coursdescriptionnonconncect-iconographie24 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-text165 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-media2 {
+    width: 500px;
+    height: 188px;
+    display: flex;
+    position: relative;
+    flex-grow: 1;
+    align-self: stretch;
+    align-items: flex-start;
+  }
+  .coursdescriptionnonconncect-maskgroup1 {
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    height: 188px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .coursdescriptionnonconncect-media3 {
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    height: 188px;
+    position: absolute;
+  }
+  .coursdescriptionnonconncect-krzysztofhepnerox11orh9v-qunsplash11 {
+    top: -176px;
+    left: 0px;
+    width: 500px;
+    height: 540px;
+    position: absolute;
+  }
+  .coursdescriptionnonconncect-textcontent1 {
+    gap: 16px;
+    display: flex;
+    padding: 8px 16px;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-headline2 {
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-text167 {
+    color: var(--dl-color-default-greydarken3);
+    width: 328px;
+    height: auto;
+    text-align: left;
+    line-height: 24px;
+  }
+  .coursdescriptionnonconncect-frame171 {
+    gap: 24px;
+    width: 472px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .coursdescriptionnonconncect-headline3 {
+    width: 174px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-text169 {
+    color: var(--dl-color-default-greydarken3);
+    width: 162px;
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-chips2 {
+    gap: 6px;
+    display: flex;
+    padding: 2px 12px;
+    overflow: hidden;
+    align-items: center;
+    border-color: rgba(253, 216, 53, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 12px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text171 {
+    color: rgba(253, 216, 53, 1);
+    height: auto;
+    font-size: 12px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 20px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-text173 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    align-self: stretch;
+    text-align: justified;
+    line-height: 24px;
+  }
+  .coursdescriptionnonconncect-actions1 {
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: flex-end;
+  }
+  .coursdescriptionnonconncect-secondarybutton1 {
+    height: 36px;
+    display: flex;
+    padding: 0 16px;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(38, 198, 218, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-content07 {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text175 {
+    color: var(--dl-color-default-cyanlighten1);
+    height: auto;
+    font-size: 12px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 32px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-frame30 {
+    gap: 32px;
+    top: 826px;
+    left: 76px;
+    width: 1288px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+  }
+  .coursdescriptionnonconncect-courscard1 {
+    width: 232px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 1px 1px 4px 0px rgba(38, 198, 218, 0.1599999964237213) ;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-matimg1 {
+    width: 232px;
+    height: 130px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-iconographie25 {
+    top: 0px;
+    left: 208px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+  }
+  .coursdescriptionnonconncect-matcardtitle1 {
+    display: flex;
+    padding: 4px;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(233, 252, 255, 1);
+    border-style: solid;
+    border-width: 0 0 1px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-text177 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    flex-grow: 1;
+    text-align: left;
+    line-height: 24px;
+  }
+  .coursdescriptionnonconncect-frame111 {
+    width: 232px;
+    display: flex;
+    padding: 4px;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-matcardsubtitle02 {
+    gap: 8px;
+    width: 228px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .coursdescriptionnonconncect-text179 {
+    color: var(--dl-color-default-greydarken2);
+    width: 51px;
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-matcardsubtitle03 {
+    gap: 4px;
+    width: 123px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-text181 {
+    color: rgba(253, 216, 53, 1);
+    height: auto;
+    font-size: 12px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-rating1 {
+    display: flex;
+    align-items: flex-start;
+  }
+  .coursdescriptionnonconncect-matrating04 {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-matbtn05 {
+    display: flex;
+    padding: 0 2.473684072494507px;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text183 {
+    color: var(--dl-color-yellow-darken1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matrating05 {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-matbtn06 {
+    display: flex;
+    padding: 0 2.473684072494507px;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text185 {
+    color: var(--dl-color-yellow-darken1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matrating06 {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-matbtn07 {
+    display: flex;
+    padding: 0 2.473684072494507px;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text187 {
+    color: var(--dl-color-yellow-darken1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matrating07 {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-matbtn08 {
+    display: flex;
+    padding: 0 2.473684072494507px;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text189 {
+    color: var(--dl-color-yellow-darken1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matbtn09 {
+    display: flex;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text191 {
+    color: var(--dl-color-grey-lighten1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-frame121 {
+    width: 232px;
+    display: flex;
+    padding: 4px;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .coursdescriptionnonconncect-frame204 {
+    gap: 4px;
+    display: flex;
+    align-items: center;
+  }
+  .coursdescriptionnonconncect-iconographie26 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-text193 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-chips3 {
+    gap: 6px;
+    display: flex;
+    padding: 2px 12px;
+    overflow: hidden;
+    align-items: center;
+    border-color: rgba(253, 216, 53, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 12px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text195 {
+    color: rgba(253, 216, 53, 1);
+    height: auto;
+    font-size: 12px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 20px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matcardtext02 {
+    display: flex;
+    padding: 4px;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text197 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    font-size: 14px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matcardtext03 {
+    display: flex;
+    padding: 4px;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .coursdescriptionnonconncect-frame211 {
+    gap: 4px;
+    width: 64px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-iconographie27 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-text199 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-secondarybutton2 {
+    height: 36px;
+    display: flex;
+    padding: 0 16px;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(38, 198, 218, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-content08 {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text201 {
+    color: var(--dl-color-default-cyanlighten1);
+    height: auto;
+    font-size: 12px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 32px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-courscard2 {
+    width: 232px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 1px 1px 4px 0px rgba(38, 198, 218, 0.1599999964237213) ;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-matimg2 {
+    width: 232px;
+    height: 130px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-iconographie28 {
+    top: 0px;
+    left: 208px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+  }
+  .coursdescriptionnonconncect-matcardtitle2 {
+    display: flex;
+    padding: 4px;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(233, 252, 255, 1);
+    border-style: solid;
+    border-width: 0 0 1px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-text203 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    flex-grow: 1;
+    text-align: left;
+    line-height: 24px;
+  }
+  .coursdescriptionnonconncect-frame112 {
+    width: 232px;
+    display: flex;
+    padding: 4px;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-matcardsubtitle04 {
+    gap: 8px;
+    width: 228px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .coursdescriptionnonconncect-text205 {
+    color: var(--dl-color-default-greydarken2);
+    width: 51px;
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-matcardsubtitle05 {
+    gap: 4px;
+    width: 123px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-text207 {
+    color: rgba(253, 216, 53, 1);
+    height: auto;
+    font-size: 12px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-rating2 {
+    display: flex;
+    align-items: flex-start;
+  }
+  .coursdescriptionnonconncect-matrating08 {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-matbtn10 {
+    display: flex;
+    padding: 0 2.473684072494507px;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text209 {
+    color: var(--dl-color-yellow-darken1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matrating09 {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-matbtn11 {
+    display: flex;
+    padding: 0 2.473684072494507px;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text211 {
+    color: var(--dl-color-yellow-darken1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matrating10 {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-matbtn12 {
+    display: flex;
+    padding: 0 2.473684072494507px;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text213 {
+    color: var(--dl-color-yellow-darken1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matrating11 {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-matbtn13 {
+    display: flex;
+    padding: 0 2.473684072494507px;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text215 {
+    color: var(--dl-color-yellow-darken1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matbtn14 {
+    display: flex;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text217 {
+    color: var(--dl-color-grey-lighten1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-frame122 {
+    width: 232px;
+    display: flex;
+    padding: 4px;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .coursdescriptionnonconncect-frame205 {
+    gap: 4px;
+    display: flex;
+    align-items: center;
+  }
+  .coursdescriptionnonconncect-iconographie29 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-text219 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-chips4 {
+    gap: 6px;
+    display: flex;
+    padding: 2px 12px;
+    overflow: hidden;
+    align-items: center;
+    border-color: rgba(218, 102, 38, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 12px;
+  }
+  .coursdescriptionnonconncect-text221 {
+    color: rgba(218, 102, 38, 1);
+    height: auto;
+    font-size: 12px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 20px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matcardtext04 {
+    display: flex;
+    padding: 4px;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text223 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    font-size: 14px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matcardtext05 {
+    display: flex;
+    padding: 4px;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .coursdescriptionnonconncect-frame212 {
+    gap: 4px;
+    width: 64px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-iconographie30 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-text225 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-secondarybutton3 {
+    height: 36px;
+    display: flex;
+    padding: 0 16px;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(38, 198, 218, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-content09 {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text227 {
+    color: var(--dl-color-default-cyanlighten1);
+    height: auto;
+    font-size: 12px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 32px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-courscard3 {
+    width: 232px;
+    height: 349px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 1px 1px 4px 0px rgba(38, 198, 218, 0.1599999964237213) ;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-matimg3 {
+    width: 232px;
+    height: 130px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-iconographie31 {
+    top: 0px;
+    left: 208px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+  }
+  .coursdescriptionnonconncect-matcardtitle3 {
+    display: flex;
+    padding: 4px;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(233, 252, 255, 1);
+    border-style: solid;
+    border-width: 0 0 1px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-text229 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    flex-grow: 1;
+    text-align: left;
+    line-height: 24px;
+  }
+  .coursdescriptionnonconncect-frame113 {
+    width: 232px;
+    display: flex;
+    padding: 4px;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-matcardsubtitle06 {
+    gap: 8px;
+    width: 228px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .coursdescriptionnonconncect-text231 {
+    color: var(--dl-color-default-greydarken2);
+    width: 51px;
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-matcardsubtitle07 {
+    gap: 4px;
+    width: 123px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-text233 {
+    color: rgba(253, 216, 53, 1);
+    height: auto;
+    font-size: 12px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-rating3 {
+    display: flex;
+    align-items: flex-start;
+  }
+  .coursdescriptionnonconncect-matrating12 {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-matbtn15 {
+    display: flex;
+    padding: 0 2.473684072494507px;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text235 {
+    color: var(--dl-color-yellow-darken1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matrating13 {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-matbtn16 {
+    display: flex;
+    padding: 0 2.473684072494507px;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text237 {
+    color: var(--dl-color-yellow-darken1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matrating14 {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-matbtn17 {
+    display: flex;
+    padding: 0 2.473684072494507px;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text239 {
+    color: var(--dl-color-yellow-darken1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matrating15 {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-matbtn18 {
+    display: flex;
+    padding: 0 2.473684072494507px;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text241 {
+    color: var(--dl-color-yellow-darken1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matbtn19 {
+    display: flex;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text243 {
+    color: var(--dl-color-grey-lighten1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-frame123 {
+    width: 232px;
+    display: flex;
+    padding: 4px;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .coursdescriptionnonconncect-frame206 {
+    gap: 4px;
+    display: flex;
+    align-items: center;
+  }
+  .coursdescriptionnonconncect-iconographie32 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-text245 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-chips5 {
+    gap: 6px;
+    display: flex;
+    padding: 2px 12px;
+    overflow: hidden;
+    align-items: center;
+    border-color: rgba(218, 102, 38, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 12px;
+  }
+  .coursdescriptionnonconncect-text247 {
+    color: rgba(218, 102, 38, 1);
+    height: auto;
+    font-size: 12px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 20px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matcardtext06 {
+    display: flex;
+    padding: 4px;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text249 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    font-size: 14px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matcardtext07 {
+    display: flex;
+    padding: 4px;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .coursdescriptionnonconncect-frame213 {
+    gap: 4px;
+    width: 64px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-iconographie33 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-text251 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-secondarybutton4 {
+    height: 36px;
+    display: flex;
+    padding: 0 16px;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(38, 198, 218, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-content10 {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text253 {
+    color: var(--dl-color-default-cyanlighten1);
+    height: auto;
+    font-size: 12px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 32px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-courscard4 {
+    width: 232px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 1px 1px 4px 0px rgba(38, 198, 218, 0.1599999964237213) ;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-matimg4 {
+    width: 232px;
+    height: 130px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-iconographie34 {
+    top: 0px;
+    left: 208px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+  }
+  .coursdescriptionnonconncect-matcardtitle4 {
+    display: flex;
+    padding: 4px;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(233, 252, 255, 1);
+    border-style: solid;
+    border-width: 0 0 1px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-text255 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    flex-grow: 1;
+    text-align: left;
+    line-height: 24px;
+  }
+  .coursdescriptionnonconncect-frame114 {
+    width: 232px;
+    display: flex;
+    padding: 4px;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-matcardsubtitle08 {
+    gap: 8px;
+    width: 228px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .coursdescriptionnonconncect-text257 {
+    color: var(--dl-color-default-greydarken2);
+    width: 51px;
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-matcardsubtitle09 {
+    gap: 4px;
+    width: 123px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-text259 {
+    color: rgba(253, 216, 53, 1);
+    height: auto;
+    font-size: 12px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-rating4 {
+    display: flex;
+    align-items: flex-start;
+  }
+  .coursdescriptionnonconncect-matrating16 {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-matbtn20 {
+    display: flex;
+    padding: 0 2.473684072494507px;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text261 {
+    color: var(--dl-color-yellow-darken1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matrating17 {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-matbtn21 {
+    display: flex;
+    padding: 0 2.473684072494507px;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text263 {
+    color: var(--dl-color-yellow-darken1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matrating18 {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-matbtn22 {
+    display: flex;
+    padding: 0 2.473684072494507px;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text265 {
+    color: var(--dl-color-yellow-darken1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matrating19 {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-matbtn23 {
+    display: flex;
+    padding: 0 2.473684072494507px;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text267 {
+    color: var(--dl-color-yellow-darken1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matbtn24 {
+    display: flex;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text269 {
+    color: var(--dl-color-grey-lighten1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-frame124 {
+    width: 232px;
+    display: flex;
+    padding: 4px;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .coursdescriptionnonconncect-frame207 {
+    gap: 4px;
+    display: flex;
+    align-items: center;
+  }
+  .coursdescriptionnonconncect-iconographie35 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-text271 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-chips6 {
+    gap: 6px;
+    display: flex;
+    padding: 2px 12px;
+    overflow: hidden;
+    align-items: center;
+    border-color: rgba(0, 97, 239, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 12px;
+  }
+  .coursdescriptionnonconncect-text273 {
+    color: rgba(0, 97, 239, 1);
+    height: auto;
+    font-size: 12px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 20px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matcardtext08 {
+    display: flex;
+    padding: 4px;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text275 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    font-size: 14px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matcardtext09 {
+    display: flex;
+    padding: 4px;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .coursdescriptionnonconncect-frame214 {
+    gap: 4px;
+    width: 64px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-iconographie36 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-text277 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-secondarybutton5 {
+    height: 36px;
+    display: flex;
+    padding: 0 16px;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(38, 198, 218, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-content11 {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text279 {
+    color: var(--dl-color-default-cyanlighten1);
+    height: auto;
+    font-size: 12px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 32px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-courscard5 {
+    width: 232px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 1px 1px 4px 0px rgba(38, 198, 218, 0.1599999964237213) ;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-matimg5 {
+    width: 232px;
+    height: 130px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-iconographie37 {
+    top: 0px;
+    left: 208px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+  }
+  .coursdescriptionnonconncect-matcardtitle5 {
+    display: flex;
+    padding: 4px;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(233, 252, 255, 1);
+    border-style: solid;
+    border-width: 0 0 1px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-text281 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    flex-grow: 1;
+    text-align: left;
+    line-height: 24px;
+  }
+  .coursdescriptionnonconncect-frame115 {
+    width: 232px;
+    display: flex;
+    padding: 4px;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-matcardsubtitle10 {
+    gap: 8px;
+    width: 228px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .coursdescriptionnonconncect-text283 {
+    color: var(--dl-color-default-greydarken2);
+    width: 51px;
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-matcardsubtitle11 {
+    gap: 4px;
+    width: 123px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-text285 {
+    color: rgba(253, 216, 53, 1);
+    height: auto;
+    font-size: 12px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-rating5 {
+    display: flex;
+    align-items: flex-start;
+  }
+  .coursdescriptionnonconncect-matrating20 {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-matbtn25 {
+    display: flex;
+    padding: 0 2.473684072494507px;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text287 {
+    color: var(--dl-color-yellow-darken1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matrating21 {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-matbtn26 {
+    display: flex;
+    padding: 0 2.473684072494507px;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text289 {
+    color: var(--dl-color-yellow-darken1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matrating22 {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-matbtn27 {
+    display: flex;
+    padding: 0 2.473684072494507px;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text291 {
+    color: var(--dl-color-yellow-darken1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matrating23 {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-matbtn28 {
+    display: flex;
+    padding: 0 2.473684072494507px;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text293 {
+    color: var(--dl-color-yellow-darken1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matbtn29 {
+    display: flex;
+    align-items: center;
+    border-radius: 34.63157653808594px;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text295 {
+    color: var(--dl-color-grey-lighten1);
+    height: auto;
+    font-size: 14.842103958129883px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Material Icons;
+    font-weight: 400;
+    line-height: 100%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-frame125 {
+    width: 232px;
+    display: flex;
+    padding: 4px;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .coursdescriptionnonconncect-frame208 {
+    gap: 4px;
+    display: flex;
+    align-items: center;
+  }
+  .coursdescriptionnonconncect-iconographie38 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-text297 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-chips7 {
+    gap: 6px;
+    display: flex;
+    padding: 2px 12px;
+    overflow: hidden;
+    align-items: center;
+    border-color: rgba(76, 175, 80, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 12px;
+  }
+  .coursdescriptionnonconncect-text299 {
+    color: rgba(76, 175, 80, 1);
+    height: auto;
+    font-size: 12px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 20px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matcardtext10 {
+    display: flex;
+    padding: 4px;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text301 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    font-size: 14px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matcardtext11 {
+    display: flex;
+    padding: 4px;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .coursdescriptionnonconncect-frame215 {
+    gap: 4px;
+    width: 64px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-iconographie39 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-text303 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-secondarybutton6 {
+    height: 36px;
+    display: flex;
+    padding: 0 16px;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(38, 198, 218, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-content12 {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text305 {
+    color: var(--dl-color-default-cyanlighten1);
+    height: auto;
+    font-size: 12px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 32px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-footerrspn {
+    gap: 152px;
+    top: 2990px;
+    left: 0px;
+    width: 1440px;
+    display: flex;
+    padding: 40px 77px;
+    position: absolute;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 4px 0px rgba(38, 198, 218, 0.1599999964237213) ;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-frame153 {
+    gap: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text307 {
+    color: var(--dl-color-default-cyandarker3);
+    width: 148px;
+    height: auto;
+    font-size: 32px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Space Mono;
+    font-weight: 700;
+    line-height: 24px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-frame22 {
+    gap: 4px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text309 {
+    color: var(--dl-color-default-cyandarker3);
+    height: auto;
+    font-size: 16px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 24px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-matinputslot {
+    gap: 4px;
+    width: 519px;
+    height: 56px;
+    display: flex;
+    padding: 8px;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(38, 198, 218, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+  }
+  .coursdescriptionnonconncect-matinputslot1 {
+    gap: 10px;
+    color: rgba(117, 117, 117, 0.6000000238418579);
+    display: flex;
+    overflow: hidden;
+    flex-grow: 1;
+    font-size: 14px;
+    text-align: left;
+    align-items: center;
+    font-family: Nunito Sans;
+    font-weight: 700;
+  }
+  .coursdescriptionnonconncect-frame155 {
+    gap: 64px;
+    width: 594px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .coursdescriptionnonconncect-menuitem {
+    gap: 4px;
+    display: flex;
+    padding: 4px 0;
+    align-items: flex-start;
+    border-radius: 4px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-content13 {
+    width: 133px;
+    display: flex;
+    padding: 4px 0;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text311 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    align-self: stretch;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-content14 {
+    width: 133px;
+    display: flex;
+    padding: 4px 0;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text313 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    align-self: stretch;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-content15 {
+    width: 133px;
+    display: flex;
+    padding: 4px 0;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text315 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-content16 {
+    width: 133px;
+    display: flex;
+    padding: 4px 0;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text317 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    align-self: stretch;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-menuitem1 {
+    gap: 4px;
+    display: flex;
+    padding: 4px 0;
+    align-items: flex-start;
+    border-radius: 4px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-content17 {
+    width: 133px;
+    display: flex;
+    padding: 4px 0;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text319 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    align-self: stretch;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-content18 {
+    width: 133px;
+    display: flex;
+    padding: 4px 0;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text321 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    align-self: stretch;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-content19 {
+    width: 133px;
+    display: flex;
+    padding: 4px 0;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text323 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    align-self: stretch;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-content20 {
+    width: 133px;
+    display: flex;
+    padding: 4px 0;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text325 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    align-self: stretch;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-frame24 {
+    gap: 8px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text327 {
+    color: var(--dl-color-default-cyandarker3);
+    height: auto;
+    font-size: 16px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 24px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-menulist {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-menulistitem2 {
+    gap: 8px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+  }
+  .coursdescriptionnonconncect-leadingelement {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-iconographie40 {
+    top: 0px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+  }
+  .coursdescriptionnonconncect-content21 {
+    gap: -4px;
+    height: 36px;
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .coursdescriptionnonconncect-text329 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    align-self: stretch;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-text331 {
+    color: var(--dl-color-m3_sys_light-onsurfacevariant);
+    height: auto;
+    font-size: 14px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-frame16 {
+    gap: 8px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-iconographie41 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-frame23 {
+    gap: -4px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text333 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    font-size: 14px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-text335 {
+    color: var(--dl-color-default-greydarken3);
+    width: 163px;
+    height: auto;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-subheader {
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    display: flex;
+    padding: 8px 80px;
+    overflow: hidden;
+    position: absolute;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-frame137 {
+    gap: 24px;
+    width: 516px;
+    height: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .coursdescriptionnonconncect-text337 {
+    color: var(--dl-color-default-greydarken2);
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-text339 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-frame161 {
+    gap: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-iconographie42 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-text341 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-coursdescriptioncomp {
+    top: 259px;
+    left: 76px;
+    width: 997px;
+    display: flex;
+    padding: 16px 0 16px 16px;
+    overflow: hidden;
+    position: absolute;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.07999999821186066) ;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 4px;
+    flex-direction: column;
+    background-color: rgba(238, 238, 238, 0.6000000238418579);
+  }
+  .coursdescriptionnonconncect-vbannercontent {
+    gap: 32px;
+    width: 964px;
+    display: flex;
+    padding: 16px 0;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4px 4px 0 0;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .coursdescriptionnonconncect-matbtn30 {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    padding: 0 16px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 40px;
+    justify-content: center;
+    background-color: rgba(38, 198, 218, 1);
+  }
+  .coursdescriptionnonconncect-iconographiecoursicon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-book5line1 {
+    top: 0px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-frame1 {
+    top: 0px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .coursdescriptionnonconncect-education {
+    top: 0px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .coursdescriptionnonconncect-book5line {
+    top: 0px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .coursdescriptionnonconncect-ming-cute {
+    top: 0px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+  }
+  .coursdescriptionnonconncect-svg {
+    top: 2px;
+    left: 3px;
+    width: 19px;
+    height: 20px;
+    position: absolute;
+  }
+  .coursdescriptionnonconncect-frame3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-textecard {
+    gap: 16px;
+    width: 789px;
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-progressbar {
+    gap: 8px;
+    width: 789px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+  }
+  .coursdescriptionnonconncect-text343 {
+    color: var(--dl-color-default-greydarken3);
+    height: auto;
+    font-size: 16px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-iconographie43 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-frame34 {
+    display: flex;
+    align-items: flex-start;
+  }
+  .coursdescriptionnonconncect-progresselement {
+    width: 40px;
+    height: 16px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(224, 247, 250, 1);
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    border-radius: 2px;
+    background-color: var(--dl-color-default-cyandarker3);
+  }
+  .coursdescriptionnonconncect-progresselement01 {
+    width: 40px;
+    height: 16px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(38, 198, 218, 1);
+    border-style: solid;
+    border-width: 0 0.5px 0 0;
+    border-radius: 2px;
+    background-color: var(--dl-color-default-cyanlighten5);
+  }
+  .coursdescriptionnonconncect-progresselement02 {
+    width: 40px;
+    height: 16px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(38, 198, 218, 1);
+    border-style: solid;
+    border-width: 0 0.5px 0 0;
+    border-radius: 2px;
+    background-color: var(--dl-color-default-cyanlighten5);
+  }
+  .coursdescriptionnonconncect-progresselement03 {
+    width: 40px;
+    height: 16px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(38, 198, 218, 1);
+    border-style: solid;
+    border-width: 0 0.5px 0 0;
+    border-radius: 2px;
+    background-color: var(--dl-color-default-cyanlighten5);
+  }
+  .coursdescriptionnonconncect-progresselement04 {
+    width: 40px;
+    height: 16px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(38, 198, 218, 1);
+    border-style: solid;
+    border-width: 0 0.5px 0 0;
+    border-radius: 2px;
+    background-color: var(--dl-color-default-cyanlighten5);
+  }
+  .coursdescriptionnonconncect-progresselement05 {
+    width: 40px;
+    height: 16px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(38, 198, 218, 1);
+    border-style: solid;
+    border-width: 0 0.5px 0 0;
+    border-radius: 2px;
+    background-color: var(--dl-color-default-cyanlighten5);
+  }
+  .coursdescriptionnonconncect-progresselement06 {
+    width: 40px;
+    height: 16px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(38, 198, 218, 1);
+    border-style: solid;
+    border-width: 0 0.5px 0 0;
+    border-radius: 2px;
+    background-color: var(--dl-color-default-cyanlighten5);
+  }
+  .coursdescriptionnonconncect-progresselement07 {
+    width: 40px;
+    height: 16px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(38, 198, 218, 1);
+    border-style: solid;
+    border-width: 0 0.5px 0 0;
+    border-radius: 2px;
+    background-color: var(--dl-color-default-cyanlighten5);
+  }
+  .coursdescriptionnonconncect-progresselement08 {
+    width: 40px;
+    height: 16px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(38, 198, 218, 1);
+    border-style: solid;
+    border-width: 0 0.5px 0 0;
+    border-radius: 2px;
+    background-color: var(--dl-color-default-cyanlighten5);
+  }
+  .coursdescriptionnonconncect-progresselement09 {
+    width: 40px;
+    height: 16px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(38, 198, 218, 1);
+    border-style: solid;
+    border-width: 0 0.5px 0 0;
+    border-radius: 2px;
+    background-color: var(--dl-color-default-cyanlighten5);
+  }
+  .coursdescriptionnonconncect-progresselement10 {
+    width: 40px;
+    height: 16px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(38, 198, 218, 1);
+    border-style: solid;
+    border-width: 0 0.5px 0 0;
+    border-radius: 2px;
+    background-color: var(--dl-color-default-cyanlighten5);
+  }
+  .coursdescriptionnonconncect-progresselement11 {
+    width: 40px;
+    height: 16px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(38, 198, 218, 1);
+    border-style: solid;
+    border-width: 0 0.5px 0 0;
+    border-radius: 2px;
+    background-color: var(--dl-color-default-cyanlighten5);
+  }
+  .coursdescriptionnonconncect-progresselement12 {
+    width: 40px;
+    height: 16px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(38, 198, 218, 1);
+    border-style: solid;
+    border-width: 0 0.5px 0 0;
+    border-radius: 2px;
+    background-color: var(--dl-color-default-cyanlighten5);
+  }
+  .coursdescriptionnonconncect-progresselement13 {
+    width: 40px;
+    height: 16px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(38, 198, 218, 1);
+    border-style: solid;
+    border-width: 0 0.5px 0 0;
+    border-radius: 2px;
+    background-color: var(--dl-color-default-cyanlighten5);
+  }
+  .coursdescriptionnonconncect-progresselement14 {
+    width: 40px;
+    height: 16px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(38, 198, 218, 1);
+    border-style: solid;
+    border-width: 0 0.5px 0 0;
+    border-radius: 2px;
+    background-color: var(--dl-color-default-cyanlighten5);
+  }
+  .coursdescriptionnonconncect-progresselement15 {
+    width: 40px;
+    height: 16px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(38, 198, 218, 1);
+    border-style: solid;
+    border-width: 0 0.5px 0 0;
+    border-radius: 2px;
+    background-color: var(--dl-color-default-cyanlighten5);
+  }
+  .coursdescriptionnonconncect-progresselement16 {
+    width: 40px;
+    height: 16px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(38, 198, 218, 1);
+    border-style: solid;
+    border-width: 0 0.5px 0 0;
+    border-radius: 2px;
+    background-color: var(--dl-color-default-cyanlighten5);
+  }
+  .coursdescriptionnonconncect-iconographie44 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-text345 {
+    color: var(--dl-color-default-cyandarker3);
+    height: auto;
+    text-align: center;
+    line-height: normal;
+  }
+  .coursdescriptionnonconncect-text347 {
+    color: var(--dl-color-default-greydarken3);
+    width: 789px;
+    height: auto;
+    font-size: 16px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 24px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .coursdescriptionnonconncect-text348 {
+    font-weight: 700;
+  }
+  .coursdescriptionnonconncect-frame67 {
+    gap: 16px;
+    width: 789px;
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .coursdescriptionnonconncect-frame35 {
+    gap: 8px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .coursdescriptionnonconncect-iconographie45 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-text350 {
+    color: rgba(38, 198, 218, 1);
+    height: auto;
+    text-align: center;
+    line-height: 24px;
+  }
+  .coursdescriptionnonconncect-frame66 {
+    gap: 8px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .coursdescriptionnonconncect-iconographie46 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-text352 {
+    color: rgba(38, 198, 218, 1);
+    height: auto;
+    text-align: center;
+    line-height: 24px;
+  }
+  .coursdescriptionnonconncect-frame31 {
+    gap: 8px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .coursdescriptionnonconncect-iconographie47 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-text354 {
+    color: rgba(38, 198, 218, 1);
+    height: auto;
+    text-align: center;
+    line-height: 24px;
+  }
+  .coursdescriptionnonconncect-frame33 {
+    gap: 8px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .coursdescriptionnonconncect-iconographie48 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-text356 {
+    color: rgba(38, 198, 218, 1);
+    height: auto;
+    text-align: center;
+    line-height: 24px;
+  }
+  .coursdescriptionnonconncect-frame341 {
+    gap: 8px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .coursdescriptionnonconncect-iconographie49 {
+    width: 24px;
+    height: 24px;
+  }
+  .coursdescriptionnonconncect-text358 {
+    color: rgba(38, 198, 218, 1);
+    height: auto;
+    text-align: center;
+    line-height: 24px;
+  }
+  

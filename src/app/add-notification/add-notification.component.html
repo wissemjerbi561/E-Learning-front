@@ -1,0 +1,145 @@
+<div class="container rounded bg-white mt-5 mb-5">
+  <h1 class="centered-title">Ajout notification</h1>
+
+  <form (submit)="onSubmit()">
+   
+    <div class="form-group">
+      <label for="title">Titre:</label>
+      <input type="text" class="form-control" id="title" name="title" [(ngModel)]="notification.title" required>
+    </div>
+    <div class="form-group">
+      <label for="description">Description:</label>
+      <textarea class="form-control form-control-sm" id="description" name="description" [(ngModel)]="notification.description" required></textarea>
+    </div>
+    <div class="form-group">
+      <label for="type">Type de notification:</label>
+      <select id="type" class="form-control" name="type" [(ngModel)]="notification.type" >
+        <option *ngFor="let type of typeList" [ngValue]="type" >{{ type.path }}</option>
+      </select>
+    </div>
+    
+    <div class="form-group">
+      <label for="sender">De :</label>
+      <input type="text" class="form-control" id="sender" name="sender" [(ngModel)]="notification.senderName" required>
+
+    </div>
+
+    <div class="text-center">
+      <button type="submit" class="btn btn-primary">Ajouter</button>
+    </div>
+    <style>
+      .notification-container {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 9999; 
+      }
+      
+      .dropdown-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+      }
+      
+      .notification-card {
+        background-color: #f6f7f9;
+        border: 1px solid #dddfe2;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        padding: 10px;
+      }
+      
+      .notification-card .card-title {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+    </style>
+   <div class="notification-container custom-width" >
+    <div class="dropdown-container">
+      <div class="nav-item dropdown">
+        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+          <div class="notification-icon" >
+            <i class="fa fa-bell"></i>
+            <span class="notification-count">{{ notifications.length }}</span>
+          </div>
+        </a>
+        <div class="dropdown-menu m-0" style="width: 300px; max-height: 300px; overflow-y: auto;">
+          <h5 class="dropdown-header notification-header">Notifications</h5>
+          <div class="dropdown-item-group">
+            <a class="dropdown-item" href="#">Tout</a>
+            <span class="dropdown-item-separator"></span>
+            <a class="dropdown-item" href="#">Non lu</a>
+          </div>
+          <div class="dropdown-item-group">
+            <a class="dropdown-item custom-font" href="#">Nouveau</a>
+            <a class="dropdown-item custom-font" href="#">Plus tôt</a>
+          </div>
+          <div class="card" *ngFor="let notification of notifications">
+            <div class="card-body">
+              <div class="notification-content d-flex align-items-center">
+                <p class="card-text">
+                  <span style="color: #2f9bc6; font-weight: bold;">{{ notification.senderName }}</span> a envoyé une notification:
+                </p>
+                
+                <p *ngIf="notification.recipientName" class="card-text">
+                  <span style="color: rgb(140, 176, 220); font-weight: bold;">À: {{ notification.recipientName }}</span>
+                </p>
+                <div class="attribute-list d-flex">
+                  <div class="mr-3">
+                    <h5 class="card-title text-center">{{ notification.title }}</h5>
+            
+                    <p class="card-text">Description: {{ notification.description }}</p>
+                    <p class="notification-type">Type: {{ notification.type.typeName }}</p>
+                    
+                    <div class="additional-actions">
+                    
+                     
+                     
+                               <!-- Notification link button -->
+                                <div *ngIf="notification.type?.path">
+    <a [href]="notification.type.path" target="_blank" class="action-item" title="Lien"> <i class="fas fa-external-link-alt"></i></a>
+   
+  </div>
+                      
+                      
+                    </div>
+                  </div>
+          
+                </div>
+              </div>
+              <p class="notification-duration">il y a quelques minutes</p>
+              <a href="#" class="btn btn-primary">Voir plus</a>
+     
+            </div>
+          </div>
+          <div class="advanced-features">
+         
+            <ul class="advanced-list">
+              <li class="advanced-item" id="mark-as-read">
+                <i class="fas fa-check-circle"></i>
+                <span class="advanced-text">Marquer comme lu</span>
+              </li>
+              <li class="advanced-item" id="add-to-favorites">
+                <i class="fas fa-star"></i>
+                <span class="advanced-text">Ajouter aux favoris</span>
+              </li>
+              <li class="advanced-item" id="delete-notification">
+                <i class="fas fa-trash-alt"></i>
+                <span class="advanced-text">Supprimer</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    
+    
+    
+    
+    
+  </form>
+  
+</div>
+

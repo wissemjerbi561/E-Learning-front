@@ -1,0 +1,106 @@
+<br>
+<br>
+<button mat-raised-button color="primary" (click)="toggleCreateMode()">Ajouter une publication</button>
+
+<br>
+<h2>Liste des publications</h2>
+
+
+<div *ngIf="isCreating">
+  <app-add-publication (createPublication)="createPublication($event)" (cancel)="cancelEdit()"></app-add-publication>
+</div>
+
+<div *ngIf="isEditing && selectedPublication">
+  <app-add-publication [publication]="selectedPublication" (updatePublication)="updatePublication($event)" (cancel)="cancelEdit()"></app-add-publication>
+</div>
+
+<div *ngIf="!isCreating && !isEditing && publications">
+  <div *ngFor="let publication of publications">
+    <mat-card>
+      <mat-card-header>
+        <div mat-card-avatar class="avatar">
+          <i class="fa fa-user"></i>
+        </div>
+        <mat-card-title> {{ publication.auteur }}</mat-card-title>
+        <mat-card-subtitle>{{ publication.datePublication | date: 'dd/MM/yy HH:mm' }}</mat-card-subtitle>
+
+      </mat-card-header>
+      <mat-card-content><span style="font-weight: bold">{{ publication.type }}</span></mat-card-content>
+      <mat-card-content>{{ publication.contenu }} </mat-card-content>
+      <mat-card-actions>
+        <button mat-icon-button [color]="isLiked[publication.id] ? 'accent' : 'primary'" (click)="likePublication(publication.id)">
+          <i class="bi bi-heart custom-icon"></i>
+          {{ publication.likes }}
+        </button>
+        
+        
+        <button mat-icon-button color="accent" (click)="toggleEditMode(publication)">
+          <i class="bi bi-pencil custom-icon"></i>
+        </button>
+        
+        <button mat-icon-button color="warn" (click)="deletePublication(publication.id)">
+          <i class="bi bi-trash custom-icon"></i>
+        </button>
+      </mat-card-actions>
+        <div  *ngIf="showAddComment">
+         
+          <app-add-publication (createPublication)="addCommentaire($event, publication)" (cancel)="cancelEdit()"></app-add-publication>
+        
+        </div>
+      <div style="display: flex; justify-content: center;">
+       <button mat-raised-button color="primary" (click)="onAddComment()">Commenter  </button>
+      </div>
+      <h4>Liste des commentaires</h4>
+
+      <div  class="row col-12" *ngFor="let comment of publication.lstComments">
+        <div  class="col-lg-2">
+          <h1>.</h1>
+           </div>
+      <mat-card-footer class="col-lg-10" >
+       
+        <div  >
+ 
+           
+           <mat-card-header>
+            <div mat-card-avatar class="avatar">
+              <i class="fa fa-user"></i>
+            </div>
+            <mat-card-title> {{ comment.auteur }}</mat-card-title>
+            <mat-card-subtitle>{{ comment.datePublication | date: 'dd/MM/yy HH:mm' }}</mat-card-subtitle>
+    
+          </mat-card-header>
+          <mat-card-content><span style="font-weight: bold">{{ comment.type }}</span></mat-card-content>
+            <mat-card-content>{{ comment.contenu }} </mat-card-content>
+           <mat-card-actions>
+        
+        <button mat-icon-button [color]="isLiked[comment.id] ? 'accent' : 'primary'" (click)="likePublication(comment.id)">
+          <i class="bi bi-heart custom-icon"></i>
+          {{ comment.likes }}
+        </button>
+
+        <button mat-icon-button color="accent" (click)="toggleEditMode(comment)">
+          <i class="bi bi-pencil custom-icon"></i>
+        </button>
+        
+        <button mat-icon-button color="warn" (click)="deletePublication(comment.id)">
+          <i class="bi bi-trash custom-icon"></i>
+        </button>
+      </mat-card-actions>
+
+      <div  *ngIf="showAddComment">
+        <app-add-publication (createPublication)="addCommentaire($event, publication)" (cancel)="cancelEdit()"></app-add-publication>
+      </div>
+    <div style="display: flex; justify-content: center;">
+     <button mat-raised-button color="primary" (click)="onAddComment()">Commenter  </button>
+    </div>
+        
+        </div>
+      </mat-card-footer>
+
+      </div>
+
+    </mat-card>
+  </div>
+
+
+</div>

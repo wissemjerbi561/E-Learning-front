@@ -1,0 +1,55 @@
+/* Add some basic styling to the page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  margin: 0;
+}
+
+/* Style the table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the table header cells */
+th {
+  background-color: var(--primary);
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  padding: 12px;
+}
+
+/* Style the table data cells */
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 12px;
+}
+
+/* Style the table data cells for even rows */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.home {
+  color: var(--primary);
+}
+.edit-btn {
+  border: none;
+  background: none;
+  font-size:24px;
+  color:#06A3DA;
+}
+.delete-btn{
+  border: none;
+  background: none;
+  font-size:24px;
+  color: red;
+}
+.profil-btn{
+    border: none;
+  background: none;
+  font-size:24px;
+}
